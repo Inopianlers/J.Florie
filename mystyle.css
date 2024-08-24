@@ -7,7 +7,7 @@
 
 .navigation-bar
 {
-  
+
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -19,8 +19,30 @@
     width: 80px;
 }
 
-ul
+li
 {
-    list-style-type: none;
+    list-style-type: none;display: inline;
 }
 
+.banner{
+    position:relative;
+    background: url(Background-flower.jpg) no-repeat center;
+    background-size:cover;
+    height: 500px;
+    overflow: hidden;
+}
+
+.container{
+    height: 100px;
+    background-color: #FFF1BA;
+    border-radius: 20px;
+    margin: 200px;
+    text-align: center;
+    padding: 3%;
+    font-family: 'Times New Roman', Times, serif
+}
+.intext{
+    color: #6D6D6D;
+    font-size: 22px;
+    margin:-12px;
+}
