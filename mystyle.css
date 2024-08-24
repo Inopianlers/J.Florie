@@ -32,17 +32,22 @@ li
     overflow: hidden;
 }
 
-.container{
-    height: 100px;
+.flex-container{
+    position: relative;
+    top:50%;
+    left: 9%;
+    transform: translate(-50%,-50%);
     background-color: #FFF1BA;
     border-radius: 20px;
-    margin: 200px;
     text-align: center;
-    padding: 3%;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+    width: 18%;
+    height: 17%;
+    padding: 5px;
 }
+
 .intext{
+    margin: -8px;
     color: #6D6D6D;
-    font-size: 22px;
-    margin:-12px;
+    font-size: 20px;
 }
