@@ -14,6 +14,15 @@
     background-color: #FFF1BA;
 }
 
+.navigation-bar2
+{
+  
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
 .lg-size
 {
     width: 80px;
