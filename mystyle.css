@@ -52,6 +52,12 @@ ul
     padding: 0 1.7rem;
 }
 
+.headlist a
+{
+   text-decoration: none;
+   color: black;
+}
+
 li
 {
     list-style-type: none;display: inline;
