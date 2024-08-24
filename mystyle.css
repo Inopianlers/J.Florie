@@ -17,6 +17,10 @@ body
   
 }
 
+a {
+    text-decoration: none;
+}
+
 .navigation-bar
 {
   
