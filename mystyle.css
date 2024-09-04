@@ -173,7 +173,7 @@ ul
 /* ----------------------------------- Section 1 by Jiaming Open------------------------------------- */
 
 .background-section {
-    background-image: url('assets/bannerbackground.jpg');
+    background-image: url('assets/banner/bannerbackground.jpg');
     background-size: cover; /* Adjust size to cover the section */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -259,7 +259,7 @@ ul
 
 
 .background-section-2 {
-    background-image: url('assets/website-background-texture-01.jpg');
+    background-image: url('assets/banner/website-background-texture-01.jpg');
     background-size: cover; /* Adjust size to cover the section */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -269,7 +269,7 @@ ul
 
   .background-section-change-height1
   {
-    background-image: url('assets/website-background-texture-01.jpg');
+    background-image: url('assets/banner/website-background-texture-01.jpg');
     background-size: cover; /* Adjust size to cover the section */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -325,7 +325,7 @@ ul
 
 .background-section-change-height
 {
-    background-image: url('assets/bannerbackground.jpg');
+    background-image: url('assets/banner/bannerbackground.jpg');
     background-size: cover; /* Adjust size to cover the section */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -443,7 +443,7 @@ ul
 /* ----------------------------------- Section 6 by Jiaming Open------------------------------------- */
 .background-section-change-height2
 {
-    background-image: url('assets/website-background-texture-01.jpg');
+    background-image: url('assets/banner/website-background-texture-01.jpg');
     background-size: cover; /* Adjust size to cover the section */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -494,7 +494,7 @@ ul
     .background-section-change-height3
     {
 
-        background-image: url('assets/bannerbackground.jpg');
+        background-image: url('assets/banner/bannerbackground.jpg');
     background-size: cover; /* Adjust size to cover the section */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
