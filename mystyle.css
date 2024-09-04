@@ -1,5 +1,6 @@
 
 
+
 *{
     margin: 0 auto;
     padding: 0;
@@ -8,6 +9,7 @@
 :root {
     --bs-font-sans-serif: 'Inter', sans-serif  !important;
     --main-color: #FFF1BA;
+    --Second-color:#FFC700;
   }
 
 body
@@ -17,26 +19,136 @@ body
   
 }
 
-a {
-    text-decoration: none;
+h2
+{
+    margin: 0 0;
 }
 
-.navigation-bar
+/* ---------------------------header by Jiaming open -------------------------------------------*/
+
+
+/* line animation open */
+.header-list a 
+{
+    text-decoration: none;
+    color: black;
+position: relative;
+padding-bottom: 1.15rem;
+     
+}
+
+
+.header-list a:after {    
+
+bottom: 0;
+content: "";
+display: block;
+height: 3px;
+left: 50%;
+position: absolute;
+background: var( --Second-color);
+transition: width 0.3s ease 0s, left 0.3s ease 0s;
+width: 0;
+
+}
+.header-list a:hover:after { 
+width: 100%; 
+left: 0; 
+}
+
+.header-list a:hover
+{
+ color: rgb(71, 60, 17) !important;
+}
+
+/* line  animation close */
+
+/* Dropdown Open */
+header nav ul li ul
+{
+    display: none;
+    position: absolute;
+    transform: translate(-89px, 16px);
+    background-color: white;
+    padding: 9px 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 21px;
+    z-index: 1;
+    /* text-align: center;
+   */
+}
+
+header nav ul li ul li
+{
+    padding: 14px 1.7rem !important;
+    
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.header-list li:hover .FirstDropdown { 
+    display: block;
+    }
+
+    .header-list li:hover .SecondDropdown { 
+        display: block;
+        }
+
+        .header-list li:hover .ThirdDropdown { 
+            display: block;
+            }
+
+.firstchild
+{
+    padding-top: 0px !important;
+}
+
+.lastchild
+{ padding-bottom: 0px !important;
+
+}
+/* Dropdown Close */
+
+
+i 
+{
+    padding: 0 0.7rem;
+}
+
+.Outer_Contai_Head_Nav
 {
   
-    margin: 0;
-    padding: 0;
+   
+    background-color: var( --main-color);
+}
 
+.Inner_Contain
+{
     display: flex;
     align-items: center;
     justify-content: space-around;
     overflow: hidden;
-    background-color: var( --main-color);
+    padding: 20px 0;
 }
+
+.Inner_Contain img
+{
+
+    width: 9rem;
+
+}
+
 
 .lg-size
 {
     width: 80px;
+}
+
+nav, .icon
+{
+   /* This prevent text  align to second paragraph */
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 ul
@@ -47,16 +159,385 @@ ul
     margin-bottom: 0px!important;
 }
 
-.headlist li
+.header-list li
 {
     padding: 0 1.7rem;
+    
 }
 
-.headlist a
+
+/* ----------------------------------- header by Jiaming Close------------------------------------- */
+
+
+
+/* ----------------------------------- Section 1 by Jiaming Open------------------------------------- */
+
+.background-section {
+    background-image: url('assets/bannerbackground.jpg');
+    background-size: cover; /* Adjust size to cover the section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    /* height: 100vh; Set height as needed; this example makes it full viewport height */
+    width: 100%; /* Ensure the section takes the full width */
+  }
+
+  .Inner_Contain_Title, .label, .btn1 , .title h2
+  {
+    position: relative;
+  }
+
+  .Inner_Contain_Title
+  {
+    text-align: center;
+    top: 4rem;
+  }
+
+  .ContainFirst
+  {
+    padding: 10rem 0px;
+  }
+
+  .label
+  {
+    padding: 29px 33px;
+    background-color: var( --main-color);
+    z-index: 1;
+    bottom: -6rem;
+  }
+
+  .label p
+  {
+   margin-bottom: 0;
+  }
+
+  .label, .icon_1, .icon_2, .icon_3
+  {
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+  }
+
+   .icon_1, .icon_2, .icon_3
+  {
+   text-align: left !important;
+  }
+  
+
+  .img1, .img2, .img3
+  {
+    width: 7rem;
+  }
+
+  .title h2
+  {
+    /* padding-top: 7rem; */
+
+    font-size: 4rem;
+    display: block;
+    text-align: center;
+    top:-6rem;
+  }
+
+  .btn1
+  {
+  background-color: var(--main-color);
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    
+  }
+
+/* ----------------------------------- Section 1 by Jiaming Close------------------------------------- */
+
+/* ----------------------------------- Section 2 by Jiaming Open------------------------------------- */
+
+
+.background-section-2 {
+    background-image: url('assets/website-background-texture-01.jpg');
+    background-size: cover; /* Adjust size to cover the section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height: 100vh; /* Set height as needed; this example makes it full viewport height */
+    width: 100%; /* Ensure the section takes the full width */
+  }
+
+  .background-section-change-height1
+  {
+    background-image: url('assets/website-background-texture-01.jpg');
+    background-size: cover; /* Adjust size to cover the section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height: 46rem; /* Set height as needed; this example makes it full viewport height */
+    width: 100%; /* Ensure the section takes the full width */
+  }
+
+
+  .Inner_Contain_Title2
+  {
+    display: block;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    padding-top: 4%;
+  }
+
+  .Inner_Contain_Title2 h3
+  {
+    padding: 27px 0;
+  }
+
+.Hot_deal_Product_img
 {
-   text-decoration: none;
-   color: black;
+   display: flex;
+   justify-content: center;
+   max-width: 31rem;
+    gap: 30px;
 }
+
+.Hot_deal_Product_img img
+{
+    border-radius: 43% 43% 0 0;
+   width: 17rem;
+   position: relative;
+}
+
+.product-label-hot
+{
+    padding: 10px;
+    position: relative;
+    transform: translate(0px, -65px);
+    background-color: var(--main-color);
+}
+
+.product-label-hot p
+{
+   margin-bottom: 0 !important;
+}
+/* ----------------------------------- Section 2 by Jiaming Close------------------------------------- */
+
+/* ----------------------------------- Section 3 by Jiaming Open------------------------------------- */
+
+.background-section-change-height
+{
+    background-image: url('assets/bannerbackground.jpg');
+    background-size: cover; /* Adjust size to cover the section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height: 52rem;
+    width: 100%; 
+}
+.Teddy_product
+{
+    position: relative;
+    top: 2rem;
+}
+
+.Teddy_product img
+{
+    width: 18rem;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+   
+}
+
+.center_round
+{
+    position: absolute !important;
+    transform: translate(-241px, 140px);
+    width: 30rem !important;
+
+}
+
+.left_product 
+{
+    margin-right: 5rem;
+    z-index: 2 !important;
+}
+
+.right_product
+{
+    margin-left: 5rem;
+
+}
+
+
+/* ----------------------------------- Section 3 by Jiaming Close------------------------------------- */
+
+/* ----------------------------------- Section 4 by Jiaming Open------------------------------------- */
+.FourthContain p
+{
+
+    font-size: 20px;
+
+}
+
+.Flower_type_product img
+{
+    width: 17rem;
+    border-radius: 36% 36% 0 0;
+}
+
+.Flower_type_product
+{
+    position: relative;
+    top: 4rem;
+    display: flex;
+    max-width: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.Circle_Content
+{   
+    height: 135px;
+    width: 135px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    border: 4px solid grey;
+    top: -5rem;
+    left: 4rem;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/* ----------------------------------- Section 4 by Jiaming Close------------------------------------- */
+
+/* ----------------------------------- Section 5 by Jiaming Open------------------------------------- */
+.Festival_Bouquet_product img
+{
+    width: 10rem;
+    
+    /* width: 100%;
+    height: 100%;
+    object-fit: contain; */
+}
+
+.Festival_Bouquet_product
+{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(260px,0fr));
+    gap: 15px;
+    justify-content: center;
+    position: relative;
+    top: 5rem;
+
+    /* display: flex;
+    flex-wrap: wrap;
+    padding: 25px 282px;
+    position: absolute; */
+}
+/* ----------------------------------- Section 5 by Jiaming Close------------------------------------- */
+
+/* ----------------------------------- Section 6 by Jiaming Open------------------------------------- */
+.background-section-change-height2
+{
+    background-image: url('assets/website-background-texture-01.jpg');
+    background-size: cover; /* Adjust size to cover the section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height: 80rem; /* Set height as needed; this example makes it full viewport height */
+    width: 100%; /* Ensure the section takes the full width */
+}
+
+.Special_Festival_type_product img
+{
+    width: 22rem;
+    border-radius: 32% 32% 0 0;
+}
+
+.Special_Festival_type_product p
+{
+    margin-bottom:0 !important;
+}
+
+.Special_Festival_type_product
+{
+    display: grid; 
+    grid-template-columns: repeat(3, minmax(358px, 0fr));
+    gap: 15px;
+    justify-content: center;
+    position: relative;
+    top: 2rem;
+
+    /* display: flex;
+    flex-wrap: wrap;
+    padding: 25px 282px;
+    position: absolute; */
+}
+
+.Product_label_Special
+{
+    padding: 10px;
+    position: relative;
+    transform: translate(0px, -21px);
+    background-color: var(--main-color);
+}
+
+/* ----------------------------------- Section 6 by Jiaming Close------------------------------------- */
+
+
+
+/* ----------------------------------- Section 7 by Jiaming Open------------------------------------- */
+
+    .background-section-change-height3
+    {
+
+        background-image: url('assets/bannerbackground.jpg');
+    background-size: cover; /* Adjust size to cover the section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height: 37rem;
+    width: 100%; 
+
+
+    }
+
+    .LogoHorizontal
+    {
+        display: flex;
+    }
+
+    .LogoHorizontal img
+    {
+        width: 28rem;
+        border-radius: 22% 22% 0 0;
+    }
+
+    .ContentOfBrand, .ContentOfBrand p, .ContentOfBrand h1
+    {
+        position: relative;
+    }
+
+    .ContentOfBrand
+    {
+        text-align: left;
+        right: 9rem;
+    }
+
+    .ContentOfBrand p
+    {
+       top: 3rem;
+    }
+
+    .ContentOfBrand h1
+    {
+        top: 2rem;
+    }
+
+/* ----------------------------------- Section 7 by Jiaming Close------------------------------------- */
+
 
 li
 {
