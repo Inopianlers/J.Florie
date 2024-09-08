@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="teststyle.css">
+</head>
+<body>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet"> -->
+
+<main class='card-accordion'>
+
+	<!-- Dropdowns -->
+	<div class='dropdown-wrapper-accordion'>
+
+		<div class='dropdown-accordion'>
+			<h3 class='dropdown__title-accordion'>Easy to Use</h3>
+			<div class='dropdown__content-accordion'>
+				<p>Bare-bones components like these are the best. They do their job without bringing a bunch of baggage with them. They also look good doing it.
+				<p>
+			</div>
+		</div>
+
+		<div class='dropdown-accordion'>
+			<h3 class='dropdown__title-accordion'>No Unnecessary Complexities</h3>
+			<div class='dropdown__content-accordion'>
+				<p>No confusing code to throw you off.
+				<p>
+				<p>The code responsible for these is concise and easy to read, which means it's easy to manage and customize, too.</p>
+			</div>
+		</div>
+
+		<div class='dropdown-accordion'>
+			<h3 class='dropdown__title-accordion'>Simple Goodness</h3>
+			<div class='dropdown__content-accordion'>
+				<p>Simplicity should always be a main goal when designing web apps, both visualy and technologically. They will be easier to maintain, and your users will thank you.
+				<p>
+			</div>
+		</div>
+
+	</div>
+	<!-- 	End Dropdowns -->
+
+    <script>
+        function handleDropdownClick(dropdown) {
+            const activeDropdowns = dropdown.parentElement.querySelectorAll(".active");
+        
+            // Closes opened dropdowns and then opens (or closes) the one that was just clicked.
+            dropdown.classList.toggle("active"); // This should come before removing the 'active' class from the other ones.
+        
+            activeDropdowns.forEach((dropdown) => dropdown.classList.remove("active"));
+        }
+        
+        const dropdownWrappers = document.querySelectorAll(".dropdown-wrapper-accordion");
+        dropdownWrappers.forEach((dropdownWrapper) => {
+            const dropdowns = dropdownWrapper.querySelectorAll(".dropdown-accordion");
+            dropdowns.forEach((dropdown) => {
+                dropdown.addEventListener("click", () => handleDropdownClick(dropdown));
+            });
+        });
+        
+        
+        
+        </script>
+
+</main>
+</body>
+</html>
