@@ -1,0 +1,181 @@
+/*Cart*/
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+:root {
+    --bs-font-sans-serif: 'Inter', sans-serif  !important;
+    --main-color: #FFF1BA;
+  }
+
+body
+{
+    font-family: var(--bs-font-sans-serif);
+    font-weight: 400;
+  
+}
+
+a {
+    text-decoration: none;
+}
+
+.navigation-bar
+{
+  
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    background-color: var( --main-color);
+}
+
+.lg-size
+{
+    width: 80px;
+}
+
+ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px!important;
+}
+
+.headlist li
+{
+    padding: 0 1.7rem;
+}
+
+.headlist a
+{
+   text-decoration: none;
+   color: black;
+}
+
+li
+{
+    list-style-type: none;display: inline;
+}
+
+
+.mybg-2{
+    width: 22rem;
+}
+
+.font-weight-bold pt-5{
+    right: 2rem;
+
+}
+#cart-container {
+    overflow-x: auto;
+    width: right;
+}
+
+#cart-container table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#cart-container table thead {
+    font-weight: 7;
+}
+
+#cart-container table thead td {
+    color: #848484;
+    border: none;
+    padding: 6px 0;
+}
+
+#cart-container table td {
+    color: #848484;
+    border: none;
+    text-align: center;
+}
+
+
+#cart-container table td:nth-child(1),
+#cart-container table td:nth-child(2) {
+    width: 200px;
+}
+
+.cart-container table td:nth-child(3) {
+    width: 100px;
+}
+
+#cart-container table td:nth-child(4),
+.cart-container table td:nth-child(5) .cart-container table td:nth-child(6) {
+    width: 170px;
+}
+
+#cart-container table tbody img {
+    width: 111px;
+    height: 111px;
+    object-fit: cover;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#cart-container table tbody i {
+    color: #645144;
+}
+
+#cart-bottom .coupon {
+    margin-left: auto;
+    text-align: right;
+}
+
+#cart-bottom .coupon div>button{
+    margin: 0 0 20px 12px;
+}
+
+#cart-bottom .coupon>div {
+    border: none;
+}
+
+#cart-bottom .coupon h4 {
+    color: #848484;
+    border: none;
+    padding: 6px 12px;
+    background: #FFF1BA;
+    font-weight: 700;
+}
+
+#cart-bottom .coupon p {
+    padding: 0px 12px;
+}
+
+#cart-bottom .coupon div>div {
+    padding: 0 12px;
+}
+
+#cart-bottom .coupon h5 {
+    color: #645144;
+}
+
+#cart-bottom .coupon div>button {
+    margin: 0 12px 20px 0;
+    display: flex;
+    justify-content: flex-end;
+    background: #FFF1BA;
+    margin-right: right;
+    display: block;
+    margin-left: auto;
+}
+
+#cart-buttom .coupon-button {
+    margin: 0 0 20px 12px;
+    display: block;
+    text-align: right;
+}
+
+.coupon
+{
+    position: relative;
+    left: 30rem;
+}

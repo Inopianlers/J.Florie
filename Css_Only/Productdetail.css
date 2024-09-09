@@ -1,0 +1,248 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+:root {
+    --bs-font-sans-serif: 'Inter', sans-serif  !important;
+    --main-color: #FFF1BA;
+  }
+
+body
+{
+    font-family: var(--bs-font-sans-serif);
+    font-weight: 400;
+  
+}
+
+a {
+    text-decoration: none;
+}
+
+.navigation-bar
+{
+  
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    background-color: var( --main-color);
+}
+
+.lg-size
+{
+    width: 80px;
+}
+
+ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px!important;
+}
+
+.headlist li
+{
+    padding: 0 1.7rem;
+}
+
+.headlist a
+{
+   text-decoration: none;
+   color: black;
+}
+
+li
+{
+    list-style-type: none;display: inline;
+}
+
+.banner{
+    position:relative;
+    background: url(Background-flower.jpg) no-repeat center;
+    background-size:cover;
+    height: 500px;
+    overflow: hidden;
+}
+
+.flex-container{
+    position: relative;
+    top:50%;
+    left: 9%;
+    transform: translate(-50%,-50%);
+    background-color: #FFF1BA;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    width: 18%;
+    height: 17%;
+    padding: 5px;
+}
+
+.intext{
+    margin: -8px;
+    color: #6D6D6D;
+    font-size: 18px;
+}
+
+.product img
+{
+    width: 18rem;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.product p
+{
+    margin-bottom:0 !important;
+}
+
+.product
+{
+    display: grid; 
+    grid-template-columns: repeat(4, minmax(358px, 0fr));
+    gap: 7px;
+    justify-content: center;
+    position: relative;
+    top: 2rem;
+
+    /* display: flex;
+    flex-wrap: wrap;
+    padding: 25px 282px;
+    position: absolute; */
+}
+
+
+
+.Product_label
+{
+    padding: 10px;
+    position: relative;
+    transform: translate(0px, -21px);
+    background-color: var(--main-color);
+    border-radius: 0px 0px 20px 20px;
+}
+
+.sortby{
+    width: 90px;
+    height: 45px;
+    font-size:15px; 
+    background-color: beige; 
+    border-radius: 30px;
+    float: right;
+    font-family:"italiana";
+}
+
+.product {
+    min-height: 100vh;
+    background: #f6f6f6;
+}
+
+.container {
+    position: relative; 
+    max-width: 300px;
+    width: 100%;
+    padding: 0px;
+    margin:0px auto;
+    object-fit: cover;
+    border-radius:20px 20px 20px 20px;
+    transition: .4s;
+}
+
+
+.container:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 16)
+    0 3px 6px rgba(0, 0, 0, 0, 23);
+    transform: translate(0px, -8px);
+}
+
+.filter_button{
+    display: flex;
+    align-items: right;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.button{
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+    border: 0;
+    cursor:pointer;
+    padding: 15px;
+    background: #FFF1BA;
+    outline:none;
+    color: #645144;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 5px;
+}
+
+.button.active{
+    background: #FFE8A3;
+    color:#f6f6f6;
+}
+
+.filterable_cards{
+    display:flex;
+    margin-top: 0px;
+    width:300px;
+    gap: 20px;
+    flex-wrap:wrap ;
+}
+
+.card{
+    width: 300px;
+    height: 365px;
+    text-align: center;
+    overflow: hidden;
+    flex: grow 1;
+    flex-basis: 300px;
+    background-color:#FFF1BA ;
+    padding:3px;
+    border-radius:50px 50px 50px 50px;
+    border: 104px solid #FFF1BA;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 8);
+}
+
+.card img{
+    width: 256px;
+    height: 261px;
+    text-align: center;
+    margin:0px auto ;
+    display: block;
+    object-fit: cover;
+    border-radius: 20px 20px 20px 20px;
+    transform: scale(1.1);
+}
+
+.card_body{
+    padding:15px 20px 20px;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+
+.card_text{
+    box-sizing: border-box;
+    font-size: 18px;
+    color: #645144;
+    padding-top: 5px;
+    margin-bottom: 0px;
+    transition: .4s;
+    background: #FFF1BA;
+    border-radius: 0px 0px 20px 20px; 
+}
+
+.card_text:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 16)
+    0 3px 6px rgba(0, 0, 0, 0, 23);
+    transform: translate(0px, -8px);
+}
