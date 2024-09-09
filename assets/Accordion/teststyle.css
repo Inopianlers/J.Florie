@@ -70,6 +70,6 @@
 	transition: 400ms;
 }
 
-.dropdown.active-accordion .dropdown__title-accordion::before {
+.dropdown-accordion.active .dropdown__title-accordion::before {
 	content: "-";
 }
