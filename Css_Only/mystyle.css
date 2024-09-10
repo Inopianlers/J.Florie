@@ -8,24 +8,50 @@
 
 :root {
     --bs-font-sans-serif: 'Inter', sans-serif  !important;
+    --bs-font-sub-san:"Jomolhari", system-ui !important;
+    --bs-font-main-san: "Italiana", sans-serif !important;
+    --font-weight-thin: 200;
+    --font-weight-normal:400;
+    --font-weight-heavy:600;
+    --font-style: normal;
     --main-color: #FFF1BA;
     --Second-color:#FFC700;
   }
 
-body
+.title h2 
+{
+    font-family:var(--bs-font-main-san) ;
+    font-weight:var(--font-weight-thin) ;
+    font-style:var( --font-style) ;
+}
+
+.FourthContain strong, .Fifth_Contain strong  , .Sixth_Contain h2
+{
+    font-family:var(--bs-font-main-san) ;
+    font-weight:var(  --font-weight-heavy) ;
+    font-style:var( --font-style) ;
+}
+
+.label, .Inner_Contain_Title2, .Inner_Contain_Title3,
+.FourthContain ,.Fifth_Contain,
+.Sixth_Contain, .Sixth_Contain p strong
+{
+ font-family: var(--bs-font-sub-san);;
+}
+
+body, .Inner_Contain_Title2 p ,  .Sixth_Contain p
 {
     font-family: var(--bs-font-sans-serif);
     font-weight: 400;
   
 }
 
-h2
-{
-    margin: 0 0;
-}
 
 /* ---------------------------header by Jiaming open -------------------------------------------*/
-
+.second-element
+{
+padding-left: 0;
+}
 
 /* line animation open */
 .header-list a 
@@ -33,7 +59,7 @@ h2
     text-decoration: none;
     color: black;
 position: relative;
-padding-bottom: 1.15rem;
+padding-bottom: 1.55rem;
      
 }
 
@@ -68,7 +94,7 @@ header nav ul li ul
 {
     display: none;
     position: absolute;
-    transform: translate(-89px, 16px);
+    transform: translate(-89px, 23px);
     background-color: white;
     padding: 9px 60px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -76,11 +102,13 @@ header nav ul li ul
     z-index: 1;
     /* text-align: center;
    */
+   min-width: unset;
 }
 
 header nav ul li ul li
 {
     padding: 14px 1.7rem !important;
+    min-width: none;
     
 }
 
@@ -134,7 +162,7 @@ i
 .Inner_Contain img
 {
 
-    width: 9rem;
+    width:7.5rem;
 
 }
 
@@ -144,25 +172,39 @@ i
     width: 80px;
 }
 
-nav, .icon
+/* nav, .icon
 {
-   /* This prevent text  align to second paragraph */
-    flex-grow: 0;
-    flex-shrink: 0;
-}
+    This prevent text  align to second paragraph 
+     flex-grow: 0;
+    flex-shrink: 0; 
+}*/
 
-ul
+header nav ul 
 {
     list-style-type: none;
     display: flex;
     justify-content: center;
     margin-bottom: 0px!important;
+    min-width: 43rem;
+    gap: 3.5rem;
 }
 
-.header-list li
+ /* .header-list li
 {
-    padding: 0 1.7rem;
-    
+   padding: 0 1.7rem; 
+  
+}*/
+
+.third-element 
+
+{
+    display: flex;
+    gap: 15px;
+}
+
+.third-element img
+{
+    width: 1.7rem;
 }
 
 
@@ -173,7 +215,7 @@ ul
 /* ----------------------------------- Section 1 by Jiaming Open------------------------------------- */
 
 .background-section {
-    background-image: url('assets/banner/bannerbackground.jpg');
+    background-image: url('../assets/banner/bannerbackground.jpg');
     background-size: cover; /* Adjust size to cover the section */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -199,7 +241,7 @@ ul
 
   .label
   {
-    padding: 29px 33px;
+    /* padding: 29px 33px; */
     background-color: var( --main-color);
     z-index: 1;
     bottom: -6rem;
@@ -226,7 +268,7 @@ ul
 
   .img1, .img2, .img3
   {
-    width: 7rem;
+    width: 9rem;
   }
 
   .title h2
@@ -250,8 +292,14 @@ ul
     display: inline-block;
     font-size: 16px;
     border-radius: 10px;
-    
+    bottom: 4rem;
   }
+
+  .label h3
+  {
+    font-size: 1.6rem;
+  }
+
 
 /* ----------------------------------- Section 1 by Jiaming Close------------------------------------- */
 
@@ -259,7 +307,7 @@ ul
 
 
 .background-section-2 {
-    background-image: url('assets/banner/website-background-texture-01.jpg');
+    background-image: url('..assets/banner/website-background-texture-01.jpg');
     background-size: cover; /* Adjust size to cover the section */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -269,7 +317,7 @@ ul
 
   .background-section-change-height1
   {
-    background-image: url('assets/banner/website-background-texture-01.jpg');
+    background-image: url('../assets/banner/website-background-texture-01.jpg');
     background-size: cover; /* Adjust size to cover the section */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -277,6 +325,11 @@ ul
     width: 100%; /* Ensure the section takes the full width */
   }
 
+
+  .Hot_deal_item
+  {
+    margin: 0;
+  }
 
   .Inner_Contain_Title2
   {
@@ -296,14 +349,14 @@ ul
 {
    display: flex;
    justify-content: center;
-   max-width: 31rem;
+   /* max-width: 31rem; */
     gap: 30px;
 }
 
 .Hot_deal_Product_img img
 {
     border-radius: 43% 43% 0 0;
-   width: 17rem;
+   width: 20rem;
    position: relative;
 }
 
@@ -325,11 +378,11 @@ ul
 
 .background-section-change-height
 {
-    background-image: url('assets/banner/bannerbackground.jpg');
+    background-image: url('../assets/banner/bannerbackground.jpg');
     background-size: cover; /* Adjust size to cover the section */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
-    height: 52rem;
+    height: 46rem;
     width: 100%; 
 }
 .Teddy_product
@@ -340,33 +393,78 @@ ul
 
 .Teddy_product img
 {
-    width: 18rem;
+    width: 16rem;
     border-radius: 50%;
     position: relative;
     z-index: 1;
    
 }
 
-.center_round
-{
-    position: absolute !important;
-    transform: translate(-241px, 140px);
-    width: 30rem !important;
 
+
+.Group_Element
+{
+    position: relative;
+    top:-51px
 }
 
 .left_product 
 {
-    margin-right: 5rem;
-    z-index: 2 !important;
+    right: 60px;
 }
 
 .right_product
 {
-    margin-left: 5rem;
-
+    left: 60px;
 }
 
+.center-product
+{
+    width: 33% !important;
+    bottom:  17.5rem;
+    z-index: 0 !important;
+}
+
+
+.content_Left
+{
+    display: flex;
+    align-items: center;
+    left: 13rem;
+    position: relative;
+    top: 9rem;
+    font-size: 1.3rem;
+}
+
+.Second_Conten
+{
+    left: 10rem !important;
+    top: 8rem;
+    align-items: normal !important;
+}
+
+.Second_Conten p
+{
+    width: 16rem;
+    text-align: end;
+}
+
+.content_Left p, .content_Left i ,.content-right p ,.content-right i
+{
+    margin: 0 !important;
+}
+
+.content-right
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 1.3rem;
+    position: relative;
+    right: 13rem;
+   
+    bottom: 9rem;
+}
 
 /* ----------------------------------- Section 3 by Jiaming Close------------------------------------- */
 
@@ -375,12 +473,20 @@ ul
 {
 
     font-size: 20px;
+    position: relative;
+    top: 1rem;
 
+}
+
+.FourthContain h3
+{
+    font-size: 1.3rem;
+    margin-bottom: unset;
 }
 
 .Flower_type_product img
 {
-    width: 17rem;
+    width: 14rem;
     border-radius: 36% 36% 0 0;
 }
 
@@ -403,7 +509,7 @@ ul
     border-radius: 50%;
     display: flex;
     align-items: center;
-    border: 4px solid grey;
+    border: 4px solid #64636387;
     top: -5rem;
     left: 4rem;
     position: relative;
@@ -415,23 +521,47 @@ ul
 /* ----------------------------------- Section 4 by Jiaming Close------------------------------------- */
 
 /* ----------------------------------- Section 5 by Jiaming Open------------------------------------- */
+
+.background-section-change-height4
+{
+    background-image: url('../assets/banner/bannerbackground.jpg');
+    background-size: cover; /* Adjust size to cover the section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height: 69rem;
+    width: 100%; 
+}
+
 .Festival_Bouquet_product img
 {
-    width: 10rem;
-    
+    width: 12rem;
+   
     /* width: 100%;
     height: 100%;
     object-fit: contain; */
 }
 
+.Fifth_Contain p
+{
+    position: relative;
+    top: 1rem;
+    font-size: 1.3rem;
+}
+
+.Festival_Bouquet_product p
+{
+    font-size: 1rem;
+    top: 2rem;
+}
+
 .Festival_Bouquet_product
 {
     display: grid;
-    grid-template-columns: repeat(4, minmax(260px,0fr));
-    gap: 15px;
+    grid-template-columns: repeat(4, minmax(200px,0fr));
+    gap: 100px 54px;
     justify-content: center;
     position: relative;
-    top: 5rem;
+    top: 4rem;
 
     /* display: flex;
     flex-wrap: wrap;
@@ -443,18 +573,25 @@ ul
 /* ----------------------------------- Section 6 by Jiaming Open------------------------------------- */
 .background-section-change-height2
 {
-    background-image: url('assets/banner/website-background-texture-01.jpg');
+    background-image: url('../assets/banner/website-background-texture-01.jpg');
     background-size: cover; /* Adjust size to cover the section */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
-    height: 80rem; /* Set height as needed; this example makes it full viewport height */
+    height: 84rem; /* Set height as needed; this example makes it full viewport height */
     width: 100%; /* Ensure the section takes the full width */
+}
+
+.Sixth_Contain p
+{
+    top: 1rem;
+    position: relative;
+    font-size: 1.6rem;
 }
 
 .Special_Festival_type_product img
 {
-    width: 22rem;
-    border-radius: 32% 32% 0 0;
+    width: 19rem;
+    border-radius: 22% 22% 0 0;
 }
 
 .Special_Festival_type_product p
@@ -466,10 +603,10 @@ ul
 {
     display: grid; 
     grid-template-columns: repeat(3, minmax(358px, 0fr));
-    gap: 15px;
+    gap: 50px 10px;
     justify-content: center;
     position: relative;
-    top: 2rem;
+    top: 4rem;
 
     /* display: flex;
     flex-wrap: wrap;
@@ -485,6 +622,17 @@ ul
     background-color: var(--main-color);
 }
 
+.Product_label_Special p
+{
+    top: 0 !important;
+    font-size: unset;
+}
+
+.Center_big_Img img
+{
+    width: 23rem;
+    
+}
 /* ----------------------------------- Section 6 by Jiaming Close------------------------------------- */
 
 
@@ -494,7 +642,7 @@ ul
     .background-section-change-height3
     {
 
-        background-image: url('assets/banner/bannerbackground.jpg');
+        background-image: url('../assets/banner/bannerbackground.jpg');
     background-size: cover; /* Adjust size to cover the section */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -502,11 +650,21 @@ ul
     width: 100%; 
 
 
+
+
     }
 
     .LogoHorizontal
     {
+       
         display: flex;
+        justify-content: center;
+        gap: 95px;
+    }
+
+    .LogoHorizontal img, .ContentOfBrand
+    {
+        margin: 0 !important;
     }
 
     .LogoHorizontal img
@@ -523,7 +681,7 @@ ul
     .ContentOfBrand
     {
         text-align: left;
-        right: 9rem;
+        /* right: 9rem; */
     }
 
     .ContentOfBrand p
