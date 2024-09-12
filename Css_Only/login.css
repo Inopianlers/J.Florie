@@ -23,7 +23,7 @@ h2
 }
 
 .Login{
-    padding-top: 100px;
+    padding: 100px;
     margin: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -43,21 +43,34 @@ h2
 .input-container {
     position: relative;
     width: 400px; /* Adjust width as needed */
-   
+    
   }
   
 .input-container input {
     width: 100%;
     padding-right: 10px; /* Add padding to accommodate the link */
+    border-radius: 10px;
+    height:40px;
   }
+
+.input-container text{
+    text-align: center;
+}
 
   .input-container .forgot-password {
     position: absolute;
-    right: 0; /* Align to the right edge */
+    right: 10px; /* Align to the right edge */
     top: 50%;
     transform: translateY(-50%);
-    font-size: 12px;
+    font-size: 15px;
     color: #888; /* Light grey color for subtle appearance */
     text-decoration: none;
     background-color: transparent; /* Ensure no background color */
   }
+
+  .signup{
+    
+    color: #888;
+  }
+
+  

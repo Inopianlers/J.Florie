@@ -22,7 +22,7 @@ h2
 }
 
 .sign-up{
-    padding-top: 100px;
+    padding: 100px;
     margin: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -46,4 +46,11 @@ h2
 .input-container input {
     width: 100%;
     padding-right: 10px; /* Add padding to accommodate the link */
+    border-radius: 10px;
+    height:40px;
+  }
+
+  .login{
+ 
+    color: #888;
   }
