@@ -1,0 +1,73 @@
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+:root {
+    --bs-font-sans-serif: 'Inter', sans-serif  !important;
+    --main-color: #FFF1BA;
+  }
+
+body
+{
+    font-family: var(--bs-font-sans-serif);
+    font-weight: 400;
+  
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*------------------product detail by Sheryl Ng--------------------*/
+.row{
+    justify-content: left;
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis:24% ;
+    cursor:pointer;
+
+}
+
+.rv{
+    background-color: beige;
+    margin: 10px 5px;
+    height: 200px;
+    padding: 5px;
+}
+
+.container1{
+    padding:100px;
+}
+
+.container2{
+    padding: 100px;
+}
+
+.container2 button{
+    text-align: center;
+    position: relative;
+    left: 37rem;
+    border-radius: 10px;
+    background-color: white;
+    width: 100px;
+    height:35px ;
+}
+
+.container button{
+    position: relative;
+    border-radius: 10px;
+    background-color: white;
+    width: 100px;
+    height:35px ;
+    padding: ;
+}
+
