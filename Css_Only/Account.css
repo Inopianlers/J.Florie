@@ -314,5 +314,106 @@ header nav ul
 
 
 
+.row
+{
+    --bs-gutter-x: unset !important;
+}
+
+/* edit by jm */
+.text-underline
+{
+    position: relative;
+    display: inline-block;
+}
+
+/* edit by jm */
+.text-underline::after
+{
+    content: '';
+    position: absolute;
+    left: 25rem;
+    bottom: -2px;
+    width: 28%;
+    height: 1px;
+    background-color: black;
+}
+
+/* edit by jm */
+.lineheight_unset
+{
+    line-height: unset !important;
+}
+
+/* edit by jm */
+.margin_for_this
+{
+   margin:  6rem 0 3rem 0;
+}
+
+/* edit by jm */
+i
+{
+    padding: 0;
+}
+
+/* .img_product
+{
+    padding: 0 116px;
+    width: 0px !important;
+} */
+
+/* edit by jm */
+.Item_size
+{
+    border: solid 1px #6c757d;
+    width: 74px;
+    padding: 2px;
+    border-radius: 7px;
+}
+
+/* edit by jm */
+.coupon-button
+{
+    text-align: left;
+    border:none;
+}
+
+/* edit by jm */
+.Confirm_btn
+{
+    border:none;
+    border-radius:9px;
+}
+
+/* edit by jm */
+.pad-size
+{
+    padding-left: 2.7rem !important;
 
 
+}
+
+.card_with_color
+{
+background-color: var(--main-color) !important;
+border: none !important;
+}
+
+.card-body
+{
+    width: 28rem;
+}
+
+.Custom_font_weight
+{
+    font-weight: 700;
+}
+
+.card-body button
+{
+    width: 9rem;
+    height: 2.5rem;
+    border: none;
+    background-color: white;
+    border-radius: 2rem;
+}
