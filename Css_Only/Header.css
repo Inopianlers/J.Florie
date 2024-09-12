@@ -1,3 +1,17 @@
+:root {
+    --bs-font-sans-serif: 'Inter', sans-serif  !important;
+    --bs-font-sub-san:"Jomolhari", system-ui !important;
+    --bs-font-main-san: "Italiana", sans-serif !important;
+    --font-weight-thin: 200;
+    --font-weight-normal:400;
+    --font-weight-heavy:600;
+    --font-style: normal;
+    --main-color: #FFF1BA;
+    --Second-color:#FFC700;
+  }
+
+
+
 .second-element
 {
 padding-left: 0;
