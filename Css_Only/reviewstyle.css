@@ -12,14 +12,12 @@
     min-height: 250px;
     padding-bottom: 40px;
     overflow: hidden;
-    
     padding: 50px;
     margin: 30px;
     font-family: 'Times New Roman', Times, serif;
+    
 }
        
-}
-
 
 .card-thumb{
     width: 100%;
@@ -34,7 +32,7 @@
     width: 120%;
     line-height: 30px;
     margin-top: 30px;
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -58,6 +56,7 @@ img{
             align-items: center;
             justify-content: center;
             text-align: center;
+     font-family: 'Times New Roman', Times, serif;
         }
 
 
