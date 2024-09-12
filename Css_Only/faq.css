@@ -1,0 +1,75 @@
+/* Resets and fonts */
+
+.dropdown-accordion, .dropdown__content-accordion, .dropdown__title-accordion, .dropdown-wrapper-accordion,
+.dropdown-accordion::before,
+.dropdown-accordion::after {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.dropdown-accordion {
+	font-family: "Nunito", sans-serif;
+	color: #272727;
+	font-size: 1.15rem;
+}
+
+/*** Unnecessary styling ***/
+
+.card-accordion {
+	width: min(900px, 100%);
+	padding: 2rem;
+	background-color: #fafafa;
+	box-shadow: 0px 2px 5px 2px #0002;
+	
+}
+
+
+
+/***** This is where the fun happens *****/
+
+.dropdown-wrapper-accordion {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+/* Closed dropdown styles */
+.dropdown-accordion {
+	padding: 0.5em 1em;
+	cursor: pointer;
+
+	border-radius: 2px;
+	width: 100%;
+}
+
+.dropdown__content-accordion {
+	max-height: 0;
+	transition: 200ms;
+
+	overflow: hidden;
+	padding: 0 1rem;
+}
+
+.dropdown__title-accordion::before {
+	content: "+";
+	display: inline-block;
+	margin-right: 0.5em;
+	width: 1em;
+}
+
+.dropdown__title-accordion {
+		border-bottom: solid black 2px;
+	 padding-bottom:5px;
+}
+
+/* Active Dropdown Styles */
+
+.dropdown-accordion.active .dropdown__content-accordion {
+	max-height: 100vh;
+	padding: 1rem;
+	transition: 400ms;
+}
+
+.dropdown-accordion.active .dropdown__title-accordion::before {
+	content: "-";
+}
