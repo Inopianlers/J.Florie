@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J.Florie</title>
+    <link rel="stylesheet" href="Css_Only/Header.css">
+    <link rel="stylesheet" href="Css_Only/Your-Shoppingcart.css">
+    <!-- font_awesome_Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- boostrap 5 link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Inter font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+    <header>
+
+   
+        <div class="Outer_Contai_Head_Nav">
+            <div class="Inner_Contain" id="myTopnav">
+                <div class="logo first-element"><a href="index.html"></a><img src="assets/logo/newheaderlogo (1).jpg"></div>
+            <nav>
+                <ul class="header-list second-element">
+                       
+                    <li><a href="#">Hot Deals</a> </li>
+                    <li><a href="#">Unique Teddy Bear</a></li>
+                    <li><a href="#">Flower Types </a>
+                        <ul class="dropdown-content FirstDropdown">
+                            <li class="firstchild"><a href="#">Crochet Flower</a></li> 
+                            <li><a href="#">Eternal Flower</a></li> 
+                            <li><a href="#">Fresh Flower</a></li> 
+                            <li class="lastchild"><a href="#">Soap Flower</a></li> 
+                         </ul>
+                        </li>    
+                    <li><a href="#">Festival Bouquet</a>
+                        <ul class="dropdown-content SecondDropdown">
+                            <li class="firstchild"><a href="#">New Year’s Eve</a></li> 
+                            <li><a href="#">Valentine’s Day</a></li> 
+                            <li><a href="#">Mother’s Day</a></li> 
+                            <li><a href="#">Christmas</a></li> 
+                            <li><a href="#">Marriage Proposal</a></li> 
+                            <li><a href="#">Wedding Bouquet</a></li> 
+                            <li class="lastchild"><a href="#">Graduation Flower</a></li> 
+                         </ul></li>
+                    <li><a href="#">Special Festival</a>
+                        <ul class="dropdown-content ThirdDropdown">
+                            <li class="firstchild"><a href="#">Cake Bouquet Set</a></li> 
+                            <li><a href="#">Dolls Bouquet</a></li> 
+                            <li><a href="#">Little Garden Bouquet</a></li> 
+                            <li><a href="#">Condolences Flower</a></li> 
+                            <li><a href="#">Opening Flower</a></li> 
+                            <li class="lastchild"><a href="#">Gift Bouquet</a></li> 
+                            
+                         </ul></li>
+                    <li><a href="#">About us</a></li>
+                </ul> 
+            </nav>
+          
+    
+            <div class="icon third-element">
+                <img src="assets/headericon/magnifying-glass.png">
+                <img src="assets/headericon/user.png">
+                <img src="assets/headericon/shopping-cart.png">
+                
+            </div>
+    
+       </div>
+    </div>
+       </header>
+       
+<!--end nav bar-->
+
+<!--cart detail-->
+    <section >
+        <div class="container-fluid mt-5">
+            <div class="row">
+                <div class="col-md-6 ps-3"><strong>Your shopping cart</strong> </div>
+                <div class="col-md-5 text-end text-underline"><strong>Continue Shopping</strong></div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 d-flex pad-size">
+                    <i class="fa-regular fa-circle-right m-0 lineheight_unset pe-2"></i>
+                    <p class="m-0 lh-base">Logout</p></div>
+                
+              </div>
+        </div>
+       
+        <!-- <div class="row">
+            <div class="col-md-6" >
+                 <div class="mybg-1"> 
+                    <h3>Your Shopping Cart</h3>
+                </div>
+           </div> 
+               
+     
+            <div class="col-md-6" >
+                  <div class="mybg-2"> 
+                    <h3>Continue Shopping</h3>
+                </div>
+        <h7 class="font-weight-bold pt-5">Logout</h7> -->
+    </section>
+       
+
+        <section id="cart-container" class="shopping-container my-2">
+            <table width=100%>
+                <thead>
+                    <tr>
+                    <td>Commodity </td>  
+                    <td></td> 
+                    <td>Unit Price </td> 
+                    <td>Quantity </td> 
+                    <td></td>
+                    <td>Total</td>
+                    </tr>
+                </thead>
+            </table>
+                <hr>
+                <table width=100%>
+                <tbody>
+                    <tr>
+                        <td class="img_product"> <img src="2.bear/2.PNG" alt="" > </td>
+                        <td class="m-0">
+                            <div class="d-grid justify-content-end text-dark">
+                                <h5>Teddy Bear Soap Flower</h5>
+                            <div class="Item_size m-0">small</div>
+                            </div>
+                            
+                            </td>
+                        <td><h5>RM59.00</h5></td>
+                        
+                        <td>
+                            <div>
+                                <img class="imgsize" src="assets/icon/add.png">
+                            <input class="w-50 pl-1 type="number">
+                            <img class="imgsize" src="assets/icon/subtracting-button.png">
+                             <i class="fas fa-trash-alt "></i>
+                            </div>
+                           </td>
+                        <td><a href="#"></a></td>
+                        <td><h5>RM59.00</h5></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <section id="cart-bottom" class="coupon-container d-flex justify-content-end margin_for_this">
+            <div class="row">
+                <div class="coupon d-flex">
+                    <div>
+                        <button class="coupon-button p-2">
+                            <h4>Coupon</h4>
+                            <div>
+                                <p class="text-black-50">Don’t forget to use the coupon when checking out the bill.</p>
+                            </div>
+                        </button>
+                        <div class="d-flex justify-content-end m-0">
+                            <div>
+                                <h5 class="fs-4">Total Product</h5>
+                            </div>
+                            <div class="m-0 pe-1 fs-4">
+                                <p>RM59.00</p>
+                            </div>
+                        </div>
+    
+                        <div class="d-flex justify-content-end mb-4">
+                            <P class="m-0 text-black-50">Freight, discount will be calculated at checkout.</P>
+                        </div>
+                        <button class="Confirm_btn ml-auto p-2 w-50">COMFIRM</button>
+                    </div>
+                </div>  
+            </div>
+        </section>
+<!--end cart detail-->
+    
+<!--footer-->
+    <footer>
+        <nav class="navigation-bar2">
+            <hr>
+    
+          <div class="container">
+              <div class="row">
+    
+                <div class="col-md-3" >
+                    <ul>
+                    <a href="aboutus"><img src="j.florie.jpg" width="50px" height="50px" ></a>
+                    <a href="aboutus"><img src="j.florie.jpg" width="50px" height="50px" ></a>
+                    <a href="aboutus"><img src="j.florie.jpg" width="50px" height="50px" ></a>
+                    </ul>
+                </div>
+    
+               <div class="col-md-3" >
+                     <h5>Categories</h5>
+                    <ul>
+                    <a href="aboutus"><li>Hot Deals</li> </a>
+                    <a href="faq"><li>Unique Teddy Bear</li> </a>
+                    <a href="talk to us"><li> Flower Types</li></a>
+                    <a href="talk to us"><li> Festival Bouquet</li></a>
+                    <a href="talk to us"><li> Special Bouquet</li></a>
+                    </ul>
+                </div>
+               
+                <div class="col-md-3" >
+                    <h5>Information</h5>
+                    <ul>
+                    <a href="aboutus"><li>About Us</li> </a>
+                    <a href="faq"><li>FAQ</li> </a>
+                    <a href="talk to us"><li> Talk to us</li></a>
+                    </ul>
+                </div>
+    
+                <div class="col-md-3" >
+                    <h5>Store Information</h5>
+                    
+                    <p>No.17, First Floor, Jalan Pesta 1/5, Off, Jalan Bakri, Taman Tun Dr Ismail, 84000 Muar, Johor
+                    <br>chuasa-wk23@student.tarc.edu.my
+                    <br>j.florie2021.com</p> 
+                    
+                </div>
+    
+              </div>
+          </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower-type</title>
+
+    <link rel="stylesheet" href="Css_Only/mystyle.2.css">
+    <link rel="stylesheet" href="Css_Only/Header.css">
+    <!-- font_awesome_Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- boostrap 5 link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Inter font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap">
+   <style>
+
+        .banner {
+            background-image: url('assets/banner/Untitled-1.png'); /* Replace with your banner image */
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .text-box {
+            background-color:var( --main-color); /* Semi-transparent background */
+           
+            padding: 2rem;
+            border-radius: 15px; /* Rounded corners */
+            text-align: center;
+        }
+
+        #secondContainer {
+  position: relative;
+  width: 200px; /* Set width to 200px */
+  transform: translateX(-218px); /* Initially hide it completely off-screen */
+  height: 25rem; /* Fixed height */
+  overflow: hidden; /* Hide overflow */
+  transition: transform 0.3s ease; /* Smooth transition for sliding */
+  background-color: #f8f9fa; /* Light background for visibility */
+  box-shadow: 0 0 10px rgba(0,0,0,0.3); /* Optional shadow */
+  /* Centerize here */
+  padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#secondContainer.show {
+  transform: translateX(0); /* Slide in from the left */
+}
+
+#secondContainer ul {
+    display: flex; /* Use flexbox to layout items in a row */
+  flex-wrap: wrap; /* Wrap items to the next line if they overflow */
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+    }
+
+    #secondContainer li {
+        width: 200px;
+        padding: 8px 12px; /* Add some spacing */
+  margin-left: 10px; /* Add spacing between items */
+  transition: background-color 0.3s ease; /* Smooth background color change on hover */
+  box-sizing: border-box; /* Include padding/border in width/height */
+    }
+
+    #secondContainer li:hover {
+        background-color: #e9ecef; /* Light gray background on hover */
+        cursor: pointer; /* Change cursor to pointer on hover */
+    }
+
+
+
+
+    .Festival_Bouquet_product img
+{
+    width: 12rem;
+   
+    /* width: 100%;
+    height: 100%;
+    object-fit: contain; */
+}
+
+.Fifth_Contain p
+{
+    position: relative;
+    top: 1rem;
+    font-size: 1.3rem;
+}
+
+.Festival_Bouquet_product p
+{
+    font-size: 1rem;
+    top: 2rem;
+}
+
+.Festival_Bouquet_product
+{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px,0fr));
+    gap: 100px 54px;
+    justify-content: center;
+    position: relative;
+    top: 4rem;
+
+    /* display: flex;
+    flex-wrap: wrap;
+    padding: 25px 282px;
+    position: absolute; */
+}
+   </style>
+</head>
+<body>
+    <header>
+
+   
+        <div class="Outer_Contai_Head_Nav">
+            <div class="Inner_Contain" id="myTopnav">
+                <div class="logo first-element"><a href="index.html"></a><img src="assets/logo/newheaderlogo (1).jpg"></div>
+            <nav>
+                <ul class="header-list second-element">
+                       
+                    <li><a href="#">Hot Deals</a> </li>
+                    <li><a href="#">Unique Teddy Bear</a></li>
+                    <li><a href="#">Flower Types </a>
+                        <ul class="dropdown-content FirstDropdown">
+                            <li class="firstchild"><a href="#">Crochet Flower</a></li> 
+                            <li><a href="#">Eternal Flower</a></li> 
+                            <li><a href="#">Fresh Flower</a></li> 
+                            <li class="lastchild"><a href="#">Soap Flower</a></li> 
+                         </ul>
+                        </li>    
+                    <li><a href="#">Festival Bouquet</a>
+                        <ul class="dropdown-content SecondDropdown">
+                            <li class="firstchild"><a href="#">New Year’s Eve</a></li> 
+                            <li><a href="#">Valentine’s Day</a></li> 
+                            <li><a href="#">Mother’s Day</a></li> 
+                            <li><a href="#">Christmas</a></li> 
+                            <li><a href="#">Marriage Proposal</a></li> 
+                            <li><a href="#">Wedding Bouquet</a></li> 
+                            <li class="lastchild"><a href="#">Graduation Flower</a></li> 
+                         </ul></li>
+                    <li><a href="#">Special Festival</a>
+                        <ul class="dropdown-content ThirdDropdown">
+                            <li class="firstchild"><a href="#">Cake Bouquet Set</a></li> 
+                            <li><a href="#">Dolls Bouquet</a></li> 
+                            <li><a href="#">Little Garden Bouquet</a></li> 
+                            <li><a href="#">Condolences Flower</a></li> 
+                            <li><a href="#">Opening Flower</a></li> 
+                            <li class="lastchild"><a href="#">Gift Bouquet</a></li> 
+                            
+                         </ul></li>
+                    <li><a href="#">About us</a></li>
+                </ul> 
+            </nav>
+          
+    
+            <div class="icon third-element">
+                <img src="assets/headericon/magnifying-glass.png">
+                <img src="assets/headericon/user.png">
+                <img src="assets/headericon/shopping-cart.png">
+                
+            </div>
+    
+       </div>
+    </div>
+       </header>
+
+       <section>
+        <div class="banner">
+            <div class="text-box">
+                <h1 class="display-4">Welcome to My Website</h1>
+                <p class="lead">We are glad to have you here!</p>
+            </div>
+        </div>
+       </section>
+
+       <section>
+        <div class="container-fluid mt-3 mb-3">
+            <div class="row">
+                
+                <div class="col-md-6">
+                    <button id="toggleButton" class="btn btn-primary" >Category</button></div>
+                <div class="col-md-6 text-end">
+                    <button>Sort by</button></div>
+            </div>
+            <div class="row">
+                <div class="col-md-1">
+
+                    <div id="secondContainer" class="mt-3 m-0">
+                        <ul>
+                            <li>New Year’s Eve</li>
+                            <li>Valentine’s Day</li>
+                            <li>Mother’s Day</li>
+                            <li>Christmas</li>
+                            <li>Marriage Proposal</li>
+                            <li>Wedding Bouquet</li>
+                            <li>Father’s Day</li>
+                            <li>Graduation Flower</li>
+                          </ul>
+                      </div>
+                </div>
+                      <div class="col-md-11">
+                      <div class="Festival_Bouquet_product"> 
+
+                        <div class="card_item_Festival">
+                          <img src="assets/4.festival bouquet/1.png">
+                          <p>New Year’s Eve</p>
+                        </div>
+                       
+                        <div class="card_item_Festival">
+                            <img src="assets/4.festival bouquet/2.png">
+                            <p>Valentine’s Day</p>
+                        </div>
+                        <div class="card_item_Festival">
+                            <img src="assets/4.festival bouquet/3.PNG">
+                            <p>Mother’s Day</p>
+                        </div>
+                        <div class="card_item_Festival">
+                            <img src="assets/4.festival bouquet/4.PNG">
+                            <p>Christmas</p>
+                        </div>
+                        <div class="card_item_Festival">
+                            <img src="assets/4.festival bouquet/5.PNG">
+                            <p>Marriage Proposal</p>
+                        </div>
+                        <div class="card_item_Festival">
+                            <img src="assets/4.festival bouquet/6.png">
+                            <p>Wedding Bouquet</p>
+                        </div>
+                        <div class="card_item_Festival">
+                            <img src="assets/4.festival bouquet/7.png">
+                            <p>Father’s Day</p>
+                        </div>
+                        <div class="card_item_Festival">
+                            <img src="assets/4.festival bouquet/8.png">
+                            <p>Graduation Flower</p>
+                        </div>
+                        
+                    </div>
+                     </div>
+
+
+                    </div>
+                </div>
+               
+                  
+
+                </div>
+
+                
+          
+       </section>
+
+       <script>
+        document.getElementById('toggleButton').addEventListener('click', function() {
+      const container = document.getElementById('secondContainer');
+      if (container.classList.contains('show')) {
+        container.classList.remove('show');
+      } else {
+        container.classList.add('show');
+      }
+    });
+      </script>
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <br>
+    <br>
+    <footer>
+        <nav class="navigation-bar2">
+            <hr>
+    
+          <div class="container">
+              <div class="row">
+    
+                <div class="col-md-3" >
+                    <ul>
+                    <a href="aboutus"><img src="j.florie.jpg" width="50px" height="50px" ></a>
+                    <a href="aboutus"><img src="j.florie.jpg" width="50px" height="50px" ></a>
+                    <a href="aboutus"><img src="j.florie.jpg" width="50px" height="50px" ></a>
+                    </ul>
+                </div>
+    
+               <div class="col-md-3" >
+                     <h5>Categories</h5>
+                    <ul>
+                    <a href="aboutus"><li>Hot Deals</li> </a>
+                    <a href="faq"><li>Unique Teddy Bear</li> </a>
+                    <a href="talk to us"><li> Flower Types</li></a>
+                    <a href="talk to us"><li> Festival Bouquet</li></a>
+                    <a href="talk to us"><li> Special Bouquet</li></a>
+                    </ul>
+                </div>
+               
+                <div class="col-md-3" >
+                    <h5>Information</h5>
+                    <ul>
+                    <a href="aboutus"><li>About Us</li> </a>
+                    <a href="faq"><li>FAQ</li> </a>
+                    <a href="talk to us"><li> Talk to us</li></a>
+                    </ul>
+                </div>
+    
+                <div class="col-md-3" >
+                    <h5>Store Information</h5>
+                    
+                    <p>No.17, First Floor, Jalan Pesta 1/5, Off, Jalan Bakri, Taman Tun Dr Ismail, 84000 Muar, Johor
+                    <br>chuasa-wk23@student.tarc.edu.my
+                    <br>j.florie2021.com</p> 
+                    
+                </div>
+    
+              </div>
+          </div>
+
+          <br>
+          
+
+
+
+
+</body>
+</html>
