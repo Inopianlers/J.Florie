@@ -20,165 +20,47 @@ a {
     text-decoration: none;
 }
 
-.second-element
-{
-padding-left: 0;
-}
-
-/* line animation open */
-.header-list a 
-{
-    text-decoration: none;
-    color: black;
-position: relative;
-padding-bottom: 1.55rem;
-     
-}
-
-
-.header-list a:after {    
-
-bottom: 0;
-content: "";
-display: block;
-height: 3px;
-left: 50%;
-position: absolute;
-background: var( --Second-color);
-transition: width 0.3s ease 0s, left 0.3s ease 0s;
-width: 0;
-
-}
-.header-list a:hover:after { 
-width: 100%; 
-left: 0; 
-}
-
-.header-list a:hover
-{
- color: rgb(71, 60, 17) !important;
-}
-
-/* line  animation close */
-
-/* Dropdown Open */
-header nav ul li ul
-{
-    display: none;
-    position: absolute;
-    transform: translate(-89px, 23px);
-    background-color: white;
-    padding: 9px 60px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    border-radius: 21px;
-    z-index: 1;
-    /* text-align: center;
-   */
-   min-width: unset;
-}
-
-header nav ul li ul li
-{
-    padding: 14px 1.7rem !important;
-    min-width: none;
-    
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.header-list li:hover .FirstDropdown { 
-    display: block;
-    }
-
-    .header-list li:hover .SecondDropdown { 
-        display: block;
-        }
-
-        .header-list li:hover .ThirdDropdown { 
-            display: block;
-            }
-
-.firstchild
-{
-    padding-top: 0px !important;
-}
-
-.lastchild
-{ padding-bottom: 0px !important;
-
-}
-/* Dropdown Close */
-
-
-i 
-{
-    padding: 0 0.7rem;
-}
-
-.Outer_Contai_Head_Nav
+.navigation-bar
 {
   
-   
-    background-color: var( --main-color);
-}
+    margin: 0;
+    padding: 0;
 
-.Inner_Contain
-{
     display: flex;
     align-items: center;
     justify-content: space-around;
     overflow: hidden;
-    padding: 20px 0;
+    background-color: var( --main-color);
 }
-
-.Inner_Contain img
-{
-
-    width:7.5rem;
-
-}
-
 
 .lg-size
 {
     width: 80px;
 }
 
-/* nav, .icon
-{
-    This prevent text  align to second paragraph 
-     flex-grow: 0;
-    flex-shrink: 0; 
-}*/
-
-header nav ul 
+Footer ul
 {
     list-style-type: none;
     display: flex;
     justify-content: center;
     margin-bottom: 0px!important;
-    min-width: 43rem;
-    gap: 3.5rem;
 }
 
- /* .header-list li
+.headlist li
 {
-   padding: 0 1.7rem; 
-  
-}*/
-
-.third-element 
-
-{
-    display: flex;
-    gap: 15px;
+    padding: 0 1.7rem;
 }
 
-.third-element img
+.headlist a
 {
-    width: 1.7rem;
+   text-decoration: none;
+   color: black;
 }
 
+Footer li
+{
+    list-style-type: none;display: inline;
+}
 
 
 .mybg-2{
@@ -257,7 +139,7 @@ header nav ul
 }
 
 #cart-bottom .coupon h4 {
-    color: #848484;
+    color: #000000;
     border: none;
     padding: 6px 12px;
     background: #FFF1BA;
@@ -273,7 +155,7 @@ header nav ul
 }
 
 #cart-bottom .coupon h5 {
-    color: #645144;
+    color: black;
 }
 
 #cart-bottom .coupon div>button {
@@ -292,8 +174,95 @@ header nav ul
     text-align: right;
 }
 
-.coupon
+/* edit by jm */
+table tbody .imgsize
+{
+    height: 20px !important;
+    width: 20px !important;
+}
+
+/* edit by jm */
+table tbody input
+{
+    border-radius: 9px;
+    border: solid 1px gray;
+}
+
+/* edit by jm */
+.row
+{
+    --bs-gutter-x: unset !important;
+}
+
+/* edit by jm */
+.text-underline
 {
     position: relative;
-    left: 30rem;
+    display: inline-block;
+}
+
+/* edit by jm */
+.text-underline::after
+{
+    content: '';
+    position: absolute;
+    left: 25rem;
+    bottom: -2px;
+    width: 28%;
+    height: 1px;
+    background-color: black;
+}
+
+/* edit by jm */
+.lineheight_unset
+{
+    line-height: unset !important;
+}
+
+/* edit by jm */
+.margin_for_this
+{
+   margin:  6rem 0 3rem 0;
+}
+
+/* edit by jm */
+i
+{
+    padding: 0;
+}
+
+/* .img_product
+{
+    padding: 0 116px;
+    width: 0px !important;
+} */
+
+/* edit by jm */
+.Item_size
+{
+    border: solid 1px #6c757d;
+    width: 74px;
+    padding: 2px;
+    border-radius: 7px;
+}
+
+/* edit by jm */
+.coupon-button
+{
+    text-align: left;
+    border:none;
+}
+
+/* edit by jm */
+.Confirm_btn
+{
+    border:none;
+    border-radius:9px;
+}
+
+/* edit by jm */
+.pad-size
+{
+    padding-left: 2.7rem !important;
+
 }
