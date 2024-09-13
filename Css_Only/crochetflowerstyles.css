@@ -1,5 +1,5 @@
-.banner {
-    background-image: url('assets/18/crochetflower.jpg'); /* Replace with your banner image */
+/* .banner {
+    background-image: url('assets/18/crochetflower.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .text-box {
     background-color:var( --main-color); /* Semi-transparent background */
