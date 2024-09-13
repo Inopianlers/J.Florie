@@ -1,5 +1,5 @@
 .banner {
-background-image: url('assets/18/crochet flower-01.jpg'); /* Replace with your banner image */
+background-image: url('../assets/18/crochet flower-01.jpg'); /* Replace with your banner image */
 background-size: cover;
 background-position: center;
 width: 100%;
