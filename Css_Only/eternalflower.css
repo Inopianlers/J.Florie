@@ -96,6 +96,7 @@ border-radius: 0 0 1rem 1rem;
 {
 top: 0 !important;
 font-size: unset;
+font-family:'Inter',san-serif;
 }
 
 .border-btn-grey
