@@ -1,0 +1,104 @@
+/* .banner {
+    background-image: url('assets/18/valentineday.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.text-box {
+    background-color:var( --main-color); /* Semi-transparent background */
+   
+    padding: 2rem;
+    border-radius: 15px; /* Rounded corners */
+    text-align: center;
+}
+
+#secondContainer {
+    position: absolute; /* Use absolute positioning */
+    width: 200px; /* Fixed width */
+    left: -200px; /* Initially hide it completely off-screen */
+    height: auto; /* Fixed height */
+    overflow: hidden; /* Hide overflow */
+    transition: left 0.3s ease; /* Smooth transition for sliding */
+    background-color: #f8f9fa; /* Light background for visibility */
+    box-shadow: 0 0 10px rgba(0,0,0,0.3); /* Optional shadow */
+    padding: 10px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+#secondContainer.show {
+left: 0;/* Slide in from the left */
+}
+
+#secondContainer ul {
+display: flex; /* Use flexbox to layout items in a row */
+flex-wrap: wrap; /* Wrap items to the next line if they overflow */
+list-style-type: none; /* Remove default list styling */
+padding: 0; /* Remove default padding */
+margin: 0; /* Remove default margin */
+}
+
+#secondContainer li {
+width: 200px;
+padding: 8px 12px; /* Add some spacing */
+margin: 5px 0; /* Adjust spacing between items */
+transition: background-color 0.3s ease; /* Smooth background color change on hover */
+box-sizing: border-box; /* Include padding/border in width/height */
+}
+
+#secondContainer li:hover {
+background-color: #e9ecef; /* Light gray background on hover */
+cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+
+
+.Special_Festival_type_product img
+{
+width: 14rem;
+border-radius: 10% 10% 0 0;
+}
+
+.Special_Festival_type_product p
+{
+margin-bottom:0 !important;
+}
+
+.Special_Festival_type_product
+{
+display: grid; 
+grid-template-columns: repeat(4, minmax(266px, 0fr));
+justify-content: center;
+gap: 3rem 0;
+
+
+/* display: flex;
+flex-wrap: wrap;
+padding: 25px 282px;
+position: absolute; */
+}
+
+.Product_label_Special
+{
+padding: 10px;
+position: relative;
+transform: translate(0px, -21px);
+background-color: var(--main-color);
+text-align: center;
+border-radius: 0 0 1rem 1rem;
+}
+
+.Product_label_Special p
+{
+top: 0 !important;
+font-size: unset;
+}
+
+.border-btn-grey
+{
+border: solid 1px darkgray;
+}
