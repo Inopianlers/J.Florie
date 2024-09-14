@@ -92,10 +92,18 @@ text-align: center;
 border-radius: 0 0 1rem 1rem;
 }
 
+.Product_label_Special h6
+{
+top: 0 !important;
+font-family: "Jomolhari",system-ui;
+}
+
 .Product_label_Special p
 {
 top: 0 !important;
 font-size: unset;
+font-family: "Inter",san-serif;
+color: #e9ecef;
 }
 
 .border-btn-grey
