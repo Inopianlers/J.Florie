@@ -9,6 +9,20 @@
     justify-content: center;
 } */
 
+.Product_label_Special strong
+{
+    font-family: var( --bs-font-sub-san) !important;
+    font-weight:var(--font-weight-thin) ;
+    font-style:var( --font-style) ;
+}
+
+.Product_label_Special p
+{
+    font-family: var( --bs-font-sub-san) !important;
+    font-weight:var(--font-weight-thin) ;
+    font-style:var( --font-style) ;
+}
+
 .text-box {
     background-color:var( --main-color); /* Semi-transparent background */
    
