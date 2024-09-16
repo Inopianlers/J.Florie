@@ -99,8 +99,7 @@ border-radius: 0 0 1rem 1rem;
     color: #666666;
 }
 
-.flower-name 
-{
+.flower-name {
     font-size: inherit; /* Use inherit instead of unset */
     font-family: "Jomolhari", system-ui;
 }
