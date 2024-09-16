@@ -92,7 +92,7 @@ text-align: center;
 border-radius: 0 0 1rem 1rem;
 }
 
-.flower-price p
+.flower-price
 {
 top: 0 !important;
 font-size: unset;
@@ -100,7 +100,7 @@ font-family:'Inter', sans-serif;
 color:#64636387;
 }
 
-.flower-name p
+.flower-name
 {
 top: 0 !important;
 font-size: unset;
