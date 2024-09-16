@@ -1,3 +1,10 @@
+.container-fluid {
+    position: relative;
+    width: 100%;
+    height: 60vh; 
+    overflow: hidden;
+}
+
 .banner_test_tADA {
     width: 100%;
     height: 60vh; 
