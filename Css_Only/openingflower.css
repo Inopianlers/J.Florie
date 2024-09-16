@@ -95,7 +95,7 @@ border-radius: 0 0 1rem 1rem;
 .flower-price {
     font-size: inherit; /* Use inherit instead of unset */
     font-family: 'Inter', sans-serif;
-    color: #64636387;
+    color: 6D6D6D;
 }
 
 .flower-name {
