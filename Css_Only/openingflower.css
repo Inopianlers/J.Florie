@@ -1,9 +1,12 @@
 /* .banner_test_tADA {
-    background-image: url('assets/specialbanner/openingflower.mp4');
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    
+   width: 100vw;
+        height: 100vh; 
+        object-fit: cover; 
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+
     display: flex;
     align-items: center;
     justify-content: center;
