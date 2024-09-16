@@ -92,10 +92,16 @@ text-align: center;
 border-radius: 0 0 1rem 1rem;
 }
 
-.Product_label_Special p
+.flower-price
 {
-top: 0 !important;
-font-size: unset;
+    font-size: inherit; /* Use inherit instead of unset */
+    font-family: 'Inter', sans-serif;
+    color: #666666;
+}
+
+.flower-name {
+    font-size: inherit; /* Use inherit instead of unset */
+    font-family: "Jomolhari", system-ui;
 }
 
 .border-btn-grey
