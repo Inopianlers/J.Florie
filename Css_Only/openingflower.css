@@ -92,19 +92,15 @@ text-align: center;
 border-radius: 0 0 1rem 1rem;
 }
 
-.flower-price
-{
-top: 0 !important;
-font-size: unset;
-font-family:'Inter', sans-serif;
-color:#64636387;
+.flower-price {
+    font-size: inherit; /* Use inherit instead of unset */
+    font-family: 'Inter', sans-serif;
+    color: #d9d9d9;
 }
 
-.flower-name
-{
-top: 0 !important;
-font-size: unset;
-font-family:"Jomolhari", system-ui;
+.flower-name {
+    font-size: inherit; /* Use inherit instead of unset */
+    font-family: "Jomolhari", system-ui;
 }
 
 .border-btn-grey
