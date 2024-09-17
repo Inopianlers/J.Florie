@@ -1,13 +1,11 @@
-.banner_test_tADA 
-{
+.banner_test_tADA {
     width: 100%; 
     height: auto; 
     max-height: 400px;
     object-fit: cover;
 }
 
-.text-box 
-{
+.text-box {
     background-color:var( --main-color); /* Semi-transparent background */
    
     padding: 2rem;
