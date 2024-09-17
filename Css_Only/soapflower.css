@@ -6,7 +6,6 @@
     object-fit: cover;
 }
 
-
 .text-box {
     background-color:var( --main-color); /* Semi-transparent background */
    
@@ -53,8 +52,6 @@ font-family: "Jomolhari", system-ui;
 background-color: #e9ecef; /* Light gray background on hover */
 cursor: pointer; /* Change cursor to pointer on hover */
 }
-
-
 
 .Special_Festival_type_product img
 {
