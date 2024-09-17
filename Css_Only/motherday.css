@@ -89,9 +89,7 @@ text-align: center;
 border-radius: 0 0 1rem 1rem;
 }
 
-
-.flower-price
-{
+.flower-price{
     font-size: inherit; /* Use inherit instead of unset */
     font-family: 'Inter', sans-serif;
     color: #666666;
@@ -102,7 +100,6 @@ border-radius: 0 0 1rem 1rem;
     font-family: "Jomolhari", system-ui;
 }
 
-.border-btn-grey
-{
+.border-btn-grey{
 border: solid 1px darkgray;
 }
