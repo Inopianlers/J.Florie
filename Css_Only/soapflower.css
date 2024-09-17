@@ -45,6 +45,7 @@ padding: 8px 12px; /* Add some spacing */
 margin: 5px 0; /* Adjust spacing between items */
 transition: background-color 0.3s ease; /* Smooth background color change on hover */
 box-sizing: border-box; /* Include padding/border in width/height */
+font-family: "Jomolhari", system-ui;
 }
 
 #secondContainer li:hover {
