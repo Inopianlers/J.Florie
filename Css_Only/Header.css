@@ -1,11 +1,3 @@
-
-
-
-*{
-    margin: 0 auto;
-    padding: 0;
-}
-
 :root {
     --bs-font-sans-serif: 'Inter', sans-serif  !important;
     --bs-font-sub-san:"Jomolhari", system-ui !important;
@@ -18,210 +10,433 @@
     --Second-color:#FFC700;
   }
 
-.title h2 
-{
-    font-family:var(--bs-font-main-san) ;
-    font-weight:var(--font-weight-thin) ;
-    font-style:var( --font-style) ;
-}
 
-.FourthContain strong, .Fifth_Contain strong  , .Sixth_Contain h2
-{
-    font-family:var(--bs-font-main-san) ;
-    font-weight:var(  --font-weight-heavy) ;
-    font-style:var( --font-style) ;
-}
 
-.label, .Inner_Contain_Title2, .Inner_Contain_Title3,
-.FourthContain ,.Fifth_Contain,
-.Sixth_Contain, .Sixth_Contain p strong
-{
- font-family: var(--bs-font-sub-san);;
-}
-
-body, .Inner_Contain_Title2 p ,  .Sixth_Contain p
-{
-    font-family: var(--bs-font-sans-serif);
-    font-weight: 400;
+  .second-element
+  {
+  padding-left: 0;
+  }
   
-}
-
-
-/* ---------------------------header by Jiaming open -------------------------------------------*/
-.second-element
-{
-padding-left: 0;
-}
-
-/* line animation open */
-.header-list a 
-{
-    text-decoration: none;
-    color: black;
-position: relative;
-padding-bottom: 1.55rem;
+  /* line animation open */
+  .header-list a 
+  {
+      text-decoration: none;
+      color: black;
+  position: relative;
+  padding-bottom: 1.55rem;
+       
+  }
+  
+  
+  .header-list a:after {    
+  
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  background: var( --Second-color);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+  
+  }
+  .header-list a:hover:after { 
+  width: 100%; 
+  left: 0; 
+  }
+  
+  .header-list a:hover
+  {
+   color: rgb(71, 60, 17) !important;
+  }
+  
+  /* line  animation close */
+  
+  /* Dropdown Open */
+  header nav ul li ul
+  {
+      display: none;
+      position: absolute;
+      transform: translate(-89px, 23px);
+      background-color: white;
+      padding: 9px 60px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      border-radius: 21px;
+      z-index: 1;
+      /* text-align: center;
+     */
+     min-width: unset;
+  }
+  
+  header nav ul li ul li
+  {
+      padding: 14px 1.7rem !important;
+      min-width: none;
+      
+  }
+  
+   /* This is hover the li only when your mouse inside dropdown*/ 
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .header-list li:hover .FirstDropdown { 
+      display: block;
+      }
+  
+      .header-list li:hover .SecondDropdown { 
+          display: block;
+          }
+  
+          .header-list li:hover .ThirdDropdown { 
+              display: block;
+              }
+  
+  .firstchild
+  {
+      padding-top: 0px !important;
+  }
+  
+  .lastchild
+  { padding-bottom: 0px !important;
+  
+  }
+  /* Dropdown Close */
+  
+  
+  i 
+  {
+      padding: 0 0.7rem;
+  }
+  
+  .Outer_Contai_Head_Nav
+  {
+    
      
+      background-color: var( --main-color);
+  }
+  
+  .Inner_Contain
+  {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      overflow: hidden;
+      padding: 20px 0;
+  }
+  
+  .logo img {
+      width: 7.5rem; /* Fixed width relative to root font size */
+      max-width: 100%; /* Ensure it scales down if needed */
+      height: auto; /* Maintain aspect ratio */
+  }
+  
+  
+  .lg-size
+  {
+      width: 80px;
+  }
+  
+  /* nav, .icon
+  {
+      This prevent text  align to second paragraph 
+       flex-grow: 0;
+      flex-shrink: 0; 
+  }*/
+  
+  header nav ul 
+  {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 0px!important;
+      min-width: 43rem;
+      gap: 3.5rem;
+  }
+  
+   /* .header-list li
+  {
+     padding: 0 1.7rem; 
+    
+  }*/
+  
+  .third-element 
+  
+  {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+     
+  }
+  
+  .third-element i
+  {
+      padding: 0 !important;
+  }
+  
+  .third-element img
+  {
+     width: 1.7rem;
+      max-width: 100%;
+      height: auto;
+  }
+  
+  .burger-icon, .menu-text {
+      display: none !important;
+  }
+  
+  /* Mobile Dropdown here Open */
+  .mobile-dropdown {
+      display: none;
+      background-color: white;
+      padding: 9px 60px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      border-radius: 21px;
+      position: absolute;
+      top: 70px;
+      right: 49px;
+      width: 28rem;
+      z-index: 1000;
+  }
+  
+  /* Style the dropdown menu items */
+  .mobile-dropdown ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      
+  }
+  
+  /* .mobile-dropdown li {
+      border-bottom: 1px solid #444;
+  } */
+  
+  .mobile-dropdown a {
+      display: block;
+      padding: 15px;
+      color:black !important;
+      text-decoration: none;
+  }
+  
+  .mobile-dropdown a:hover {
+    
+      color:rgb(71, 60, 17) !important;
+      
+  }
+  
+  /* .mobile-dropdown a:hover {
+      background-color: #555;
+  } */
+  
+  /* Show the dropdown menu when 'active' class is added */
+  .mobile-dropdown.active {
+      display: block;
+  }
+  
+  
+  
+  
+  .collapsible-content {
+      display: none; /* Hidden by default */
+      padding-left: 20px; /* Indentation for nested items */
+      background-color: var(--main-color);
+  }
+  
+  .collapsible-content li {
+      border: none; /* Remove border for nested items */
+  }
+  
+  /* Show the dropdown menu when 'active' class is added */
+  .mobile-dropdown.active {
+      display: block;
+  }
+  /* Mobile Dropdown here Close */
+  
+
+  /* Responsive Open */
+  
+@media (max-width: 1156px){
+    .second-element
+    {
+        gap:0 !important;
+    }
 }
 
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header-list {
+        display: none; /* Hide the header list on mobile */
+    }
 
-.header-list a:after {    
+    .first-element{
+        margin: 0 15px;
+    }
 
-bottom: 0;
-content: "";
-display: block;
-height: 3px;
-left: 50%;
-position: absolute;
-background: var( --Second-color);
-transition: width 0.3s ease 0s, left 0.3s ease 0s;
-width: 0;
+    .third-element img {
+        width: 1.3rem;
+    }
 
-}
-.header-list a:hover:after { 
-width: 100%; 
-left: 0; 
-}
+    .third-element{
+        gap: 10px;
+        margin: 0 15px;
+    }
 
-.header-list a:hover
-{
- color: rgb(71, 60, 17) !important;
-}
+    .burger-icon, .menu-text{
+        display: flex !important;
+        align-items: center;
+        font-size: 20px; /* Adjust size as needed */
+        cursor: pointer; 
+       
+    }
 
-/* line  animation close */
+    .ColorofMenu{
+        display: flex;
+        gap: 10px;
+        transition: color 0.3s ease; 
+    }
 
-/* Dropdown Open */
-header nav ul li ul
-{
-    display: none;
-    position: absolute;
-    transform: translate(-89px, 23px);
-    background-color: white;
+    .ColorofMenu:hover{
+        color: #a52a2a;
+    }
+
+    .menu-text{
+        font-family: var( --bs-font-sub-san);
+        font-weight: var( --font-weight-heavy);
+    }
+    
+    .mobile-dropdown
+    {
+        background-color: white;
     padding: 9px 60px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     border-radius: 21px;
-    z-index: 1;
-    /* text-align: center;
-   */
-   min-width: unset;
-}
-
-header nav ul li ul li
-{
-    padding: 14px 1.7rem !important;
-    min-width: none;
-    
-}
-
- /* This is hover the li only when your mouse inside dropdown*/ 
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.header-list li:hover .FirstDropdown { 
-    display: block;
+    position: absolute;
+    top: 70px;
+    right: 70px;
+    width: 50rem;
+    z-index: 1000;
     }
 
-    .header-list li:hover .SecondDropdown { 
-        display: block;
-        }
-
-        .header-list li:hover .ThirdDropdown { 
-            display: block;
-            }
-
-.firstchild
-{
-    padding-top: 0px !important;
-}
-
-.lastchild
-{ padding-bottom: 0px !important;
-
-}
-/* Dropdown Close */
-
-
-i 
-{
-    padding: 0 0.7rem;
-}
-
-.Outer_Contai_Head_Nav
-{
-  
+    .collapsible-content 
+    {
    
-    background-color: var( --main-color);
-}
-
-.Inner_Contain
-{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    overflow: hidden;
-    padding: 20px 0;
-}
-
-.logo img {
-    width: 7.5rem; /* Fixed width relative to root font size */
-    max-width: 100%; /* Ensure it scales down if needed */
-    height: auto; /* Maintain aspect ratio */
-}
-
-
-.lg-size
-{
-    width: 80px;
-}
-
-/* nav, .icon
-{
-    This prevent text  align to second paragraph 
-     flex-grow: 0;
-    flex-shrink: 0; 
-}*/
-
-header nav ul 
-{
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0px!important;
-    min-width: 43rem;
-    gap: 3.5rem;
-}
-
- /* .header-list li
-{
-   padding: 0 1.7rem; 
-  
-}*/
-
-.third-element 
-
-{
-    display: flex;
-    gap: 15px;
-    align-items: center;
    
+
+    width: 50rem;
+    position: relative;
+    right: 60px;
+    padding: 0 59px !important;
+    }
+
 }
 
-.third-element i
+
+        @media (min-width: 576px) and  (max-width: 767.98px) {
+
+
+            .header-list {
+        display: none; /* Hide the header list on mobile */
+    }
+
+    .first-element{
+        margin: 0 15px;
+    }
+
+    .third-element img {
+        width: 1.3rem;
+    }
+
+    .third-element{
+        gap: 10px;
+        margin: 0 15px;
+    }
+
+    .burger-icon, .menu-text{
+        display: flex !important;
+        align-items: center;
+        font-size: 20px; /* Adjust size as needed */
+        cursor: pointer; 
+       
+    }
+
+    .ColorofMenu{
+        display: flex;
+        gap: 10px;
+        transition: color 0.3s ease; 
+    }
+
+    .ColorofMenu:hover{
+        color: #a52a2a;
+    }
+
+    .menu-text{
+        font-family: var( --bs-font-sub-san);
+        font-weight: var( --font-weight-heavy);
+    }
+
+    .mobile-dropdown
+    {
+        background-color: white;
+    padding: 9px 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 21px;
+    position: absolute;
+    top: 70px;
+    right: 45px;
+    width: 35rem;
+    z-index: 1000;
+    }
+    
+    .collapsible-content 
+    {
+        padding: 0 61px !important;
+    width: 35rem;
+    position: relative;
+    left: -60px;
+    }
+}
+
+@media (max-width: 575.98px)
 {
-    padding: 0 !important;
-}
+    .header-list {
+        display: none; /* Hide the header list on mobile */
+    }
 
-.third-element img
-{
-   width: 1.7rem;
-    max-width: 100%;
-    height: auto;
-}
+    .first-element{
+        margin: 0 15px;
+    }
 
-.burger-icon, .menu-text {
-    display: none !important;
-}
+    .third-element img {
+        width: 1.3rem;
+    }
 
-/* Mobile Dropdown here Open */
-.mobile-dropdown {
+    .third-element{
+        gap: 10px;
+        margin: 0 15px;
+    }
+
+    .burger-icon, .menu-text{
+        display: flex !important;
+        align-items: center;
+        font-size: 20px; /* Adjust size as needed */
+        cursor: pointer; 
+       
+    }
+
+    .ColorofMenu{
+        display: flex;
+        gap: 10px;
+        transition: color 0.3s ease; 
+    }
+
+    .ColorofMenu:hover{
+        color: #a52a2a;
+    }
+
+    .menu-text{
+        font-family: var( --bs-font-sub-san);
+        
+    }
+
+    .mobile-dropdown {
     display: none;
     background-color: white;
     padding: 9px 60px;
@@ -229,938 +444,20 @@ header nav ul
     border-radius: 21px;
     position: absolute;
     top: 70px;
-    right: 49px;
+    right: 16px;
     width: 28rem;
     z-index: 1000;
 }
 
-/* Style the dropdown menu items */
-.mobile-dropdown ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    
-}
-
-/* .mobile-dropdown li {
-    border-bottom: 1px solid #444;
-} */
-
-.mobile-dropdown a {
-    display: block;
-    padding: 15px;
-    color:black !important;
-    text-decoration: none;
-}
-
-.mobile-dropdown a:hover {
-  
-    color:rgb(71, 60, 17) !important;
-    
-}
-
-/* .mobile-dropdown a:hover {
-    background-color: #555;
-} */
-
-/* Show the dropdown menu when 'active' class is added */
-.mobile-dropdown.active {
-    display: block;
-}
-
-
-
-
-.collapsible-content {
-    display: none; /* Hidden by default */
-    padding-left: 20px; /* Indentation for nested items */
-    background-color: var(--main-color);
-}
-
-.collapsible-content li {
-    border: none; /* Remove border for nested items */
-}
-
-/* Show the dropdown menu when 'active' class is added */
-.mobile-dropdown.active {
-    display: block;
-}
-/* Mobile Dropdown here Close */
-
-
-/* ----------------------------------- header by Jiaming Close------------------------------------- */
-
-
-
-/* ----------------------------------- Section 1 by Jiaming Open------------------------------------- */
-
-.background-section {
-    background-image: url('../assets/banner/bannerbackground.jpg');
-    background-size: cover; /* Adjust size to cover the section */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    /* height: 100vh; Set height as needed; this example makes it full viewport height */
-    width: 100%; /* Ensure the section takes the full width */
-  }
-
-  .Inner_Contain_Title, .label, .btn1 , .title h2
-  {
-    position: relative;
-  }
-
-  .Inner_Contain_Title
-  {
-    text-align: center;
-    top: 4rem;
-  }
-
-  .ContainFirst
-  {
-    padding: 10rem 0px;
-  }
-
-  .title img
-  {
-    display: none;
-  }
-  .label
-  {
-    /* padding: 29px 33px; */
-    background-color: var( --main-color);
-    z-index: 1;
-    bottom: -6rem;
-  }
-
-  .label p
-  {
-   margin-bottom: 0;
-  }
-
-  .label, .icon_1, .icon_2, .icon_3
-  {
-    display: flex;
-    align-items: center;
+.collapsible-content 
+    {
    
-    justify-content: center;
-  }
-
-   .icon_1, .icon_2, .icon_3
-  {
-   text-align: left !important;
-  }
-  
-
-  .img1, .img2, .img3
-  {
-    width: 9rem;
-  }
-
-  .title h2
-  {
-    /* padding-top: 7rem; */
-
-    font-size: 4rem;
-    display: block;
-    text-align: center;
-    top:-6rem;
-  }
-
-  .btn1
-  {
-  background-color: var(--main-color);
-    border: none;
-    color: black;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 10px;
-    bottom: 4rem;
-  }
-
-  .label h3
-  {
-    font-size: 1.6rem;
-  }
-
-
-/* ----------------------------------- Section 1 by Jiaming Close------------------------------------- */
-
-/* ----------------------------------- Section 2 by Jiaming Open------------------------------------- */
-
-
-.background-section-2 {
-    background-image: url('..assets/banner/website-background-texture-01.jpg');
-    background-size: cover; /* Adjust size to cover the section */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    height: 100vh; /* Set height as needed; this example makes it full viewport height */
-    width: 100%; /* Ensure the section takes the full width */
-  }
-
-  .background-section-change-height1 
-  {
-    background-image: url('../assets/banner/website-background-texture-01.jpg');
-    background-size: cover; /* Adjust size to cover the section */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    height: 46rem; /* Set height as needed; this example makes it full viewport height */
-    width: 100%; /* Ensure the section takes the full width */
-  }
-
-
-  .Hot_deal_item
-  {
-    margin: 0;
-  }
-
-  .Inner_Contain_Title2
-  {
-    display: block;
+    width: 28rem;
     position: relative;
-    justify-content: center;
-    text-align: center;
-    padding-top: 4%;
-  }
-
-  .Inner_Contain_Title2 h3
-  {
-    padding: 27px 0;
-  }
-
-.Hot_deal_Product_img
-{
-   display: flex;
-   justify-content: center;
-   /* max-width: 31rem; */
-    gap: 30px;
-}
-
-.Hot_deal_Product_img img
-{
-    border-radius: 43% 43% 0 0;
-   width: 20rem;
-   position: relative;
-}
-
-.product-label-hot
-{
-    padding: 10px;
-    position: relative;
-    transform: translate(0px, -65px);
-    background-color: var(--main-color);
-}
-
-.product-label-hot p
-{
-   margin-bottom: 0 !important;
-}
-/* ----------------------------------- Section 2 by Jiaming Close------------------------------------- */
-
-/* ----------------------------------- Section 3 by Jiaming Open------------------------------------- */
-
-.background-section-change-height
-{
-    background-image: url('../assets/banner/bannerbackground.jpg');
-    background-size: cover; /* Adjust size to cover the section */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    height: 46rem;
-    width: 100%; 
-}
-.Teddy_product
-{
-    position: relative;
-    top: 2rem;
-}
-
-.Teddy_product img
-{
-    /* width: 16rem;
-    border-radius: 50%;
-    position: relative; */
-    z-index: 1;
-   
-}
-
-
-
-.Group_Element
-{
-    position: relative;
-    top:-51px
-}
-
-.left_product 
-{
-    right: 60px;
-}
-
-.right_product
-{
-    left: 60px;
-}
-
-.center-product
-{
-    width: 45% !important;
-    bottom:  17.5rem;
-    z-index: 0 !important;
-}
-
-
-.content_Left
-{
-    display: flex;
-    align-items: center;
-    left: 13rem;
-    position: absolute !important;
-    top: 9rem;
-    font-size: 1.3rem;
-}
-
-.Second_Conten
-{
-    left: 12rem !important;
-    top: 26rem;
-    align-items: normal !important;
-}
-
-.Second_Conten p
-{
-    width: 16rem;
-    text-align: end;
-}
-
-.content_Left p, .content_Left i ,.content-right p ,.content-right i
-{
-    margin: 0 !important;
-}
-
-.content-right
-{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    font-size: 1.3rem;
-    position: absolute;
-    right: 17rem;
-    bottom: -12rem;
-}
-
-/* ----------------------------------- Section 3 by Jiaming Close------------------------------------- */
-
-/* ----------------------------------- Section 4 by Jiaming Open------------------------------------- */
-.FourthContain p
-{
-
-    font-size: 20px;
-    position: relative;
-    top: 1rem;
-
-}
-
-.FourthContain h3
-{
-    font-size: 1.3rem;
-    margin-bottom: unset;
-}
-
-.Flower_type_product img
-{
-    width: 14rem;
-    border-radius: 36% 36% 0 0;
-}
-
-.Flower_type_product
-{
-    position: relative;
-    top: 4rem;
-    display: flex;
-  
- 
-    gap: 70px;
-   
-
-    /* display: grid;
-    grid-template-columns: repeat(4, minmax(200px, 0fr));
-    position: relative;
-    top: 4rem;
-    justify-content: center;
-    gap: 70px;
-    overflow-x: auto;
-    white-space: nowrap; */
-}
-
-.Circle_Content
-{   
-    height: 135px;
-    width: 135px;
-    background-color: var(--main-color);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    border: 4px solid #64636387;
-    top: -5rem;
-    left: 4rem;
-    position: relative;
-    text-align: center;
-    justify-content: center;
-}
-
-.text_to_show
-{
-    display: none;
-}
-
-
-/* ----------------------------------- Section 4 by Jiaming Close------------------------------------- */
-
-/* ----------------------------------- Section 5 by Jiaming Open------------------------------------- */
-
-.background-section-change-height4
-{
-    background-image: url('../assets/banner/bannerbackground.jpg');
-    background-size: cover; /* Adjust size to cover the section */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    height: 69rem;
-    width: 100%; 
-}
-
-.Festival_Bouquet_product img
-{
-    width: 12rem;
-   
-    /* width: 100%;
-    height: 100%;
-    object-fit: contain; */
-}
-
-.Fifth_Contain p
-{
-    position: relative;
-    top: 1rem;
-    font-size: 1.3rem;
-}
-
-.Festival_Bouquet_product p
-{
-    font-size: 1rem;
-    top: 2rem;
-}
-
-.Festival_Bouquet_product
-{
-    display: grid;
-    grid-template-columns: repeat(4, minmax(200px,0fr));
-    gap: 100px 54px;
-    justify-content: center;
-    position: relative;
-    top: 4rem;
-
-    /* display: flex;
-    flex-wrap: wrap;
-    padding: 25px 282px;
-    position: absolute; */
-}
-/* ----------------------------------- Section 5 by Jiaming Close------------------------------------- */
-
-/* ----------------------------------- Section 6 by Jiaming Open------------------------------------- */
-.background-section-change-height2
-{
-    background-image: url('../assets/banner/website-background-texture-01.jpg');
-    background-size: cover; /* Adjust size to cover the section */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    height: 84rem; /* Set height as needed; this example makes it full viewport height */
-    width: 100%; /* Ensure the section takes the full width */
-}
-
-.Sixth_Contain p
-{
-    top: 1rem;
-    position: relative;
-    font-size: 1.6rem;
-}
-
-.Special_Festival_type_product img
-{
-    width: 19rem;
-    border-radius: 22% 22% 0 0;
-}
-
-.Special_Festival_type_product p
-{
-    margin-bottom:0 !important;
-}
-
-.Special_Festival_type_product
-{
-    display: grid; 
-    grid-template-columns: repeat(3, minmax(358px, 0fr));
-    gap: 50px 10px;
-    justify-content: center;
-    position: relative;
-    top: 4rem;
-
-    /* display: flex;
-    flex-wrap: wrap;
-    padding: 25px 282px;
-    position: absolute; */
-}
-
-.Product_label_Special
-{
-    padding: 10px;
-    position: relative;
-    transform: translate(0px, -21px);
-    background-color: var(--main-color);
-}
-
-.Product_label_Special p
-{
-    top: 0 !important;
-   font-size: 16px;
-
-}
-
-.Center_big_Img img
-{
-    width: 23rem;
-    margin: -3px -5px !important;
-}
-
-.Center_big_Img
-{
-    width: 23rem;
-    position: relative;
-    right: 4px;
-}
-/* ----------------------------------- Section 6 by Jiaming Close------------------------------------- */
-
-
-
-/* ----------------------------------- Section 7 by Jiaming Open------------------------------------- */
-
-    .background-section-change-height3
-    {
-
-        background-image: url('../assets/banner/bannerbackground.jpg');
-    background-size: cover; /* Adjust size to cover the section */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    height: 37rem;
-    width: 100%; 
-
-
-
-
+    right: 3.7rem;
+    padding: 0 55px !important;
     }
 
-    .ConTain_Of_Aboutus
-    {
-        margin: 0;
-    }
-
-    .LogoHorizontal h3
-    {
-        display: none;
-    }
-
-    .LogoHorizontal
-    {
-       
-        display: flex;
-        justify-content: center;
-        gap: 95px;
-    }
-
-    .LogoHorizontal img, .ContentOfBrand
-    {
-        margin: 0 !important;
-    }
-
-    .LogoHorizontal img
-    {
-        width: 28rem;
-        border-radius: 22% 22% 0 0;
-    }
-
-    .ContentOfBrand, .ContentOfBrand p, .ContentOfBrand h1
-    {
-        position: relative;
-    }
-
-    .ContentOfBrand
-    {
-        text-align: left;
-        /* right: 9rem; */
-    }
-
-    .ContentOfBrand p
-    {
-       top: 3rem;
-    }
-
-    .ContentOfBrand h1
-    {
-        top: 2rem;
-    }
-
-/* ----------------------------------- Section 7 by Jiaming Close------------------------------------- */
-
-
-/* -----------------------------------Responsive Open------------------------------------- */
-
-
-@media (max-width: 575.98px) and (min-height: 569px) and (max-height: 667px) 
-{   
-    /* Section First */
-    .background-section
-    {
-        height: 77vh;
-    }
-
-    .ContainFirst {
-padding: 6rem 0px;
-    }
-
-    .title img
-    {      
-        display: block;
-        position: relative;
-         width: 12rem;
-        bottom: 9rem;
-         border-radius: 4rem 4rem 0 0;
-    }    
     
-
-    .title
-    {
-        padding: 20px;
-    }
-
-    .title p
-    {
-        font-size:29px;
-        margin: 0;
-    }
-
-    .btn1
-    {
-        font-size: 12px;
-        padding: 13px 22px;
-        bottom: 6rem;
-    }
-    /* Section First */
-
-    /* Section Second */
-    .background-section-change-height
-    {
-        height: 34rem;
-    }
-    .label {
-        padding: 8px 8px;
-        bottom: 4rem;
-        padding-bottom: 18px;
-    }
-
-    .label h3{
-        font-size: .9rem;
-    }
-
-    .label p{
-        font-size: .6rem;
-    }
-
-    .icon_1,  .icon_2,   .icon_3
-    {
-        display: grid;
-        text-align: center !important;
-    }
-
-    .img1 ,.img2, .img3
-    {
-        width: 3.5rem;
-    }
-
-    .text_only_1, .text_only_2,  .text_only_3
-
-    {
-        min-width: 7.3rem;
-       
-    }
-
-    .text_only_1 h3, .text_only_2 h3,  .text_only_3 h3
-    {
-        margin: 0;
-    }
-    
-    .Inner_Contain_Title2
-    {
-        top: 10rem;
-    }
-    
-    .Hot_deal_Product_img img 
-    {
-        width: 10rem;
-        border-radius: 31% 31% 0 0;
-    }
-
-    .Hot_deal_Product_img
-    {
-        gap: 10px;
-        position: relative;
-         top: 2rem;
-    }
-    
-    .product-label-hot
-    {
-        padding: 10px;
-        position: unset;
-        transform: none;
-        border-radius: 0 0 30px 30px;
-    }
-
-    .Card_Content p
-    {
-        font-size: 10px;
-    }
-
-    .Card_Content strong
-    {
-        font-size: 12px;
-    }
-
-    .responsive-br
-    {display: none;}
-    .Inner_Contain_Title2 h3
-    {
-       
-        font-size: 23px;
-    }
-
-     /* Section Second */
-
-      /* Section Third */
-    
-    .center-product {
-        width: 69% !important;
-    }
-
-    .content-right 
-    {
-        display: flex;
-     align-items: center;
-     justify-content: flex-end;
-        font-size: 1rem;
-        position: absolute;
-    right: 1rem;
-        bottom: -9rem;
-    }
-    
-    .content_Left 
-    {
-        display: flex;
-      align-items: center;
-         left: 1rem;
-     position: absolute !important;
-     top: 2rem;
-         font-size: 1rem;
-
-    }
-
-    .Second_Conten
-    {
-        left: -3rem !important;
-    top: 19rem !important;
-     align-items: normal !important;
-
-    }
-
-    .Second_Conten p {
-        width: 12rem;
-        text-align: end;
-    }
-    
-     /* Section Third */
-
-      /* Section Fourth */
-      .FIRST
-      {
-            height: 36rem;
-      }
-
-
-    .Flower_type_product
-        {
-            display: flex;
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent line breaks in child elements */
-    padding: 10px;
-            gap: 30px ;
-    box-sizing: border-box;
- 
-        }
-
-        .Flower_type_product img {
-              width: 10rem;
-              border-radius: 40% 40% 0 0;
-                }
-
-        .Flower_type_product::-webkit-scrollbar {
-display: none; /* Hide scrollbars in WebKit-based browsers (Chrome, Safari) */
-        }
-        
-        .Circle_Content
-        {
-            height: 90px;
-            width: 90px;
-         background-color: white;
-         border: 6px solid var(  --main-color);
-        }
-        
-        .FourthContain h3 
-        {
-            font-size: 1rem;
-        }
-        
-        .text_to_show
-            {
-         display: block;
-            }
-
-            
-   
-         /* Section Fourth */
-          /* Section Fifth */
-
-          .background-section-change-height4 {
-            height: 44rem;
-          }
-
-         .Festival_Bouquet_product p {
-font-size: 0.8rem;
-top: 2rem;  
-                }
-
-                .Festival_Bouquet_product img {
-width: 6rem;
 }
-.Festival_Bouquet_product {
-display: grid;
-grid-template-columns: repeat(4, minmax(124px, 0fr));
-gap: 48px 0px;
-justify-content: center;
-position: relative;
-top: 4rem;
-}
-/* Section Fifth */
-
-/* Section Sixth */
-
-.background-section-change-height2
-{
-
-height: 46rem;
-
-}
-
-.Special_Festival_type_product img {
-width: 8.8rem;
-border-radius: 22% 22% 0 0;
-}
-
-
-
-.Special_Festival_type_product {
-display: grid;
-grid-template-columns: repeat(3, minmax(168px, 0fr));
-/* gap: 50px 10px; */
-justify-content: center;
-position: relative;
-top: 4rem;
-gap: unset;
-}
-.Product_label_Special {
-padding: 10px 0;
-position: relative;
-transform: translate(0px, -21px);
-background-color: var(--main-color);
-border-radius: 0 0 30px 30px;
-
-}
-
-
-.Center_big_Img img {
-width: 10.6rem;
-
-}
-
-.Center_big_Img  {
-width: 10.6rem;
-position:unset;
-right:unset;
-
-}
-
-.Sixth_Contain p {
-top: 1rem;
-position: relative;
-font-size: 1rem;
-
-}
-
-
-
-.Product_label_Special p
-{
-font-size: 7px !important;
-}
-
-/* Section Sixth */
-
-/* Section Seven */
-
-.LogoHorizontal  {
-gap: unset;
-
-}
-
-.LogoHorizontal img {
-width: 14rem;
-height: 14rem;
-border-radius: 22% 22% 0 0;
-position: relative;
-top: 149px;
-}
-
-.LogoHorizontal h3
-{
-display: block;
-position: relative;
-top: 77px;
-}
-
-.ContentOfBrand h1
-{
-display: none;
-}
-
-.ContentOfBrand, .ConTain_Of_Aboutus
-{
-padding: 0 10px;
-}
-
-/* Section Seven */
-
-
-
-
-
-
-}
-
-/* -----------------------------------Responsive Close------------------------------------- */
+    /* Responsive Close */
