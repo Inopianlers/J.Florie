@@ -1,13 +1,9 @@
-/* .banner {
-    background-image: url('assets/18/wedding.jpg');
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
+.banner_test_tADA {
+    width: 100%; 
+    height: auto; 
+    max-height: 400px;
+    object-fit: cover;
+}
 
 .text-box {
     background-color:var( --main-color); /* Semi-transparent background */
