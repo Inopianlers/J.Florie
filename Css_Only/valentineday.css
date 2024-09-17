@@ -47,13 +47,10 @@ box-sizing: border-box; /* Include padding/border in width/height */
 font-family: "Jomolhari", system-ui;
 }
 
-
 #secondContainer li:hover {
 background-color: #e9ecef; /* Light gray background on hover */
 cursor: pointer; /* Change cursor to pointer on hover */
 }
-
-
 
 .Special_Festival_type_product img
 {
