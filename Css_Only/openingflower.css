@@ -7,7 +7,6 @@
 
 .text-box {
     background-color:var( --main-color); /* Semi-transparent background */
-   
     padding: 2rem;
     border-radius: 15px; /* Rounded corners */
     text-align: center;
