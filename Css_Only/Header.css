@@ -299,7 +299,7 @@
 
     .menu-text{
         font-family: var( --bs-font-sub-san);
-        font-weight: var( --font-weight-heavy);
+      
     }
     
     .mobile-dropdown
