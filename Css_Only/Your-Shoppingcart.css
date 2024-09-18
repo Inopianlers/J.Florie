@@ -199,21 +199,10 @@ table tbody input
 {
     position: relative;
     display: inline-block;
+    text-decoration:underline;
 }
 
-/* edit by jm */
-.text-underline::after
-{
-    content: '';
-    position: absolute;
-    left: 25rem;
-    bottom: -2px;
-    width: 28%;
-    height: 1px;
-    background-color: black;
-}
 
-/* edit by jm */
 .lineheight_unset
 {
     line-height: unset !important;
