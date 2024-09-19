@@ -55,3 +55,17 @@ h2
   .ccl{
     color: #888;
   }
+
+@media (max-width: 768px) {
+ .input-container input {
+    width: 70%;
+    position: relative;
+    right: 5rem;
+
+ }
+
+
+   
+
+ 
+}
