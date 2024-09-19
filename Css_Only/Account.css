@@ -410,15 +410,15 @@ border: none !important;
 
     .Recent_Order
     {
-        padding-left: unset;
-            width: unset;
+        padding-left: unset !important;
+            width: unset !important;
     margin-left: 10px;
          margin-bottom:20px;
     }
 
     .Check_All
     {
-        padding-right: unset;
+        padding-right: unset !important;
         margin-right: 0px;
          margin-bottom:20px;
     }
