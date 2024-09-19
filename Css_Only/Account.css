@@ -377,8 +377,22 @@ i
 .pad-size
 {
     padding-left: 2.7rem !important;
+    color: grey;
+}
 
+.pad-size p
+{
+  text-decoration: underline;
+    color: grey;
+    padding-top: 3px;
+}
 
+.pad-size i
+{
+  padding-left:0;
+
+        font-size: 20px;
+    color: grey;
 }
 
 .card_with_color
