@@ -413,27 +413,24 @@ border: none !important;
         padding-left: unset;
             width: unset;
     margin-left: 10px;
+         margin-bottom:20px;
     }
 
     .Check_All
     {
         padding-right: unset;
         margin-right: 0px;
-    }
-
-    .PAYMENT_RECORD
-    {
-        margin-bottom:20px;
+         margin-bottom:20px;
     }
 
     tr td
     {
-        width:7rem;
+        width:7rem !important;
         font-size:12px;
     }
 
     .pad-size
     {
-        padding-left: 0.7rem;
+        padding-left: 0.7rem !important;
     }
 }
