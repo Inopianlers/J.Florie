@@ -261,32 +261,24 @@ i
 
 
 @media (max-width: 768px) {
-    .table-responsive {
-        display: block;
+    th, td {
+        font-size: 0.8em; /* Smaller text for table header and cells */
+        padding: 5px;     /* Adjust padding for smaller screens */
     }
 
     table {
         display: block;
         width: 100%;
         overflow-x: auto;
-        white-space: nowrap;
-    }
-
-    thead {
-        display: none; /* Hide the header on small screens */
+        white-space: nowrap; /* Prevents text from wrapping */
     }
 
     tbody tr {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 15px;
-        border: 1px solid #ddd; /* Optional: Add border for better separation */
+        display: table; /* Maintain table row structure */
     }
 
     td {
-        display: flex;
-        justify-content: space-between;
-        border: 1px solid #ddd;
-        padding: 10px;
+        display: table-cell; /* Keep the cell structure */
+        border: 1px solid #ddd; /* Optional: Add borders for better separation */
     }
 }
