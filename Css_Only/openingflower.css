@@ -112,3 +112,15 @@ border: solid 1px darkgray;
     justify-content: center;
     gap: 3rem 0;
 }
+
+    .Special_Festival_type_product p {
+    width: 150px; /* Set a fixed width */
+            white-space: nowrap; /* Prevent text from wrapping */
+            overflow: hidden; /* Hide overflow */
+            text-overflow: ellipsis; /* Show ellipsis */
+        
+}
+
+}
+
+    
