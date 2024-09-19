@@ -34,7 +34,6 @@ a {
 .small-img-col{
     flex-basis:24% ;
     cursor:pointer;
-    border-radius:20px 20px 20px 20px;
 
 }
 
@@ -100,6 +99,7 @@ a {
 .small_img_Parent .small-img-col
 {
     margin: 0;
+    border-radius:20px 20px 20px 20px;
     
 }
 
