@@ -365,18 +365,18 @@ header nav ul
     transform: translate(0px, -8px);
 }
 
+.Main_Img_Product img
+{
+        border-radius:18px;
+   
+}
+
 @media (max-width: 768px) {
 
-.small-img-group img
-    {
-        border-radius:18px;
-    }
-
-    .img-fluid
-    {
-        border-radius:35px;
-    }
-
+.sproduct .pt-5 {
+   padding-top: unset;
+}
+   
 
 
 }
