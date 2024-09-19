@@ -416,13 +416,22 @@ border: none !important;
          margin-bottom:20px;
     }
 
+     .PAYMENT_RECORD .ps-5
+    {
+          padding-left: unset !important;
+    }
+
     .Check_All
     {
-        padding-right: unset !important;
+       
         margin-right: 0px;
          margin-bottom:20px;
     }
 
+    .PAYMENT_RECORD .pe-5
+    {
+         padding-right: unset !important;
+    }
     tr td
     {
         width:7rem !important;
