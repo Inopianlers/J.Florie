@@ -255,3 +255,38 @@ i
     padding-left: 2.7rem !important;
 
 }
+
+
+
+
+
+@media (max-width: 768px) {
+    .table-responsive {
+        display: block;
+    }
+
+    table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    thead {
+        display: none; /* Hide the header on small screens */
+    }
+
+    tbody tr {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+        border: 1px solid #ddd; /* Optional: Add border for better separation */
+    }
+
+    td {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+}
