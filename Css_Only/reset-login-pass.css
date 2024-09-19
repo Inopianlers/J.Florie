@@ -54,11 +54,40 @@ h2
 
   .cnf{
     text-decoration: none;
-    color: #888;
+    color: black;
 }
 
 .signup{
     text-decoration: none;
     color: #888;
   }
+
+.Signup-link a , .Signup-link p 
+{
+color:grey;
+}
+
+btn a
+{
+color:black;
+}
+
+@media (max-width: 768px) {
+
+.Signup-link p 
+{
+color:grey;
+    width:13rem;
+}
+.input-container input {
+    width: 80%;
+    right: 4rem;
+    position: relative;
+}
+
+.Reset-pass h1
+{
+width: 20.8rem;
+}
+
   
