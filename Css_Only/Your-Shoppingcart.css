@@ -72,7 +72,7 @@ Footer li
 
 }
 #cart-container {
-    overflow-x: auto;
+/*     overflow-x: auto; */
     width: right;
 }
 
