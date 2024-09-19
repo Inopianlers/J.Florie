@@ -79,11 +79,12 @@ color:black;
 color:grey;
     width:13rem;
 }
-.input-container input {
-    width: 80%;
-    right: 4rem;
-    position: relative;
-}
+
+form
+    {
+display:grid;
+        justify-content:center
+    }
 
 .Reset-pass h1
 {
