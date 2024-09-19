@@ -431,4 +431,9 @@ border: none !important;
         width:7rem;
         font-size:12px;
     }
+
+    .pad-size
+    {
+        padding-left: 0.7rem;
+    }
 }
