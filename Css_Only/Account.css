@@ -405,3 +405,30 @@ border: none !important;
     background-color: white;
     border-radius: 2rem;
 }
+
+@media (max-width: 768px) {
+
+    .Recent_Order
+    {
+        padding-left: unset;
+            width: unset;
+    margin-left: 10px;
+    }
+
+    .Check_All
+    {
+        padding-right: unset;
+        margin-right: 0px;
+    }
+
+    .PAYMENT_RECORD
+    {
+        margin-bottom:20px;
+    }
+
+    tr td
+    {
+        width:7rem;
+        font-size:12px;
+    }
+}
