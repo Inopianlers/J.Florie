@@ -103,3 +103,12 @@ border-radius: 0 0 1rem 1rem;
 {
 border: solid 1px darkgray;
 }
+
+@media (max-width: 768px)
+{
+.Special_Festival_type_product {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(266px, 0fr));
+    justify-content: center;
+    gap: 3rem 0;
+}
