@@ -70,10 +70,10 @@ ul
    color: black;
 }
 
-li
+/* li
 {
     list-style-type: none;display: inline;
-}
+} */
 
 .banner{
     position:relative;
