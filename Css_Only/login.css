@@ -73,4 +73,20 @@ h2
     color: #888;
   }
 
+@media (max-width: 768px) {
+
+.input-container input {
+       width: 92%;
+    position: relative;
+    right: 69px;
+}
+
+    .input-container .forgot-password {
+    position: absolute;
+    right: 101px;
+    top: 50%;
+    }
+
+}
+
   
