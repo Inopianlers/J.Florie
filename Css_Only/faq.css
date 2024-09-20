@@ -12,7 +12,7 @@
 /*         } */
 
 .banner {
-    background-image: url('assets/banner/bannerbackground.jpg'); /* Link to your background image */
+    background-image: url('../assets/banner/bannerbackground.jpg'); /* Link to your background image */
     background-size: cover; /* Ensure the image covers the entire banner */
     background-position: center; /* Center the image */
     height: 300px; /* Set a fixed height for the banner */
