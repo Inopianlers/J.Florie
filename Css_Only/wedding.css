@@ -6,7 +6,8 @@
     object-fit: cover;
 }
 
-.text-box {
+.text-box
+{
     background-color:var( --main-color); /* Semi-transparent background */
    
     padding: 2rem;
