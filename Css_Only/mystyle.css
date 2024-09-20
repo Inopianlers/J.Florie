@@ -569,6 +569,71 @@ body, .Inner_Contain_Title2 p ,  .Sixth_Contain p
 
 /* -----------------------------------Responsive Open------------------------------------- */
 
+@media (min-width: 360px) and (max-width: 576px) 
+{
+    .Hot_deal_Product_img img {
+        width: 7rem;
+
+    }
+
+
+    .center-product {
+        width: 83% !important;
+    }
+
+.Festival_Bouquet_product img {
+        width: 5rem;
+
+}
+
+        .Special_Festival_type_product img {
+        width: 5.8rem;
+
+        }
+
+            .Center_big_Img {
+                position: relative;
+    right: 19px;
+            }
+
+    
+        .Center_big_Img img {
+        width: 7.6rem;
+
+        }
+
+        .Card_Content strong {
+        font-size: 10px;
+        }
+
+        .Product_label_Special {
+            width: 120px;
+
+        }
+
+        .Product_label_Special p {
+                width: 89px;
+        }
+
+    LogoHorizontal
+    {
+        display:grid;
+    }
+
+ .LogoHorizontal img 
+    {
+            width: 13rem;
+        height: 13rem;
+    }
+
+    ContentOfBrand p
+    {
+            font-size: 14px;
+        text-align: center;
+        
+    }
+
+}
 
 @media (max-width: 575.98px) and (min-height: 569px) and (max-height: 667px) 
 {   
