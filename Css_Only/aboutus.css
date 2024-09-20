@@ -9,5 +9,13 @@
         display: flex !important; /* Force flex display on mobile */
         flex-wrap: nowrap !important; /* Prevent wrapping */
     }
+
+   .no-break img {
+       width: 95%;
+        flex-wrap: nowrap !important; /* Prevent wrapping */
+    }
+
+   .row>* {
+    flex-shrink: unset;
 }
 
