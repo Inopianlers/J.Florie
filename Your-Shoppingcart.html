@@ -171,7 +171,7 @@
                 </thead>
             </table>
                 <hr>
-                <table width=100%>
+                <table id="myTable" width=100%>
                 <tbody>
                     <tr>
                         <td class="img_product word-break"> <img src="2.bear/2.PNG" alt="" > </td>
@@ -229,7 +229,55 @@
             </div>
         </section>
 <!--end cart detail-->
-    
+
+
+    <script>
+
+           let tdAdded = false; // Flag to track if the new <td> has been added
+
+function addNewTd() {
+    const rows = document.querySelectorAll("#myTable tbody tr");
+
+    rows.forEach(row => {
+        const newTd = document.createElement("td");
+        newTd.textContent = ""; // Set content for the new td
+        row.insertBefore(newTd, row.children[2]); // Insert before the third child (index 2)
+    });
+
+    tdAdded = true; // Set flag to true
+}
+
+function removeNewTd() {
+    const rows = document.querySelectorAll("#myTable tbody tr");
+
+    rows.forEach(row => {
+        if (row.children.length > 6) { // Check if new td exists
+            row.deleteCell(2); // Remove the td at the third position (index 2)
+        }
+    });
+
+    tdAdded = false; // Reset flag to false
+}
+
+function handleResize() {
+    if (window.innerWidth <= 768) {
+        if (!tdAdded) { // Only add if it hasn't been added yet
+            addNewTd();
+        }
+    } else {
+        if (tdAdded) { // Only remove if it has been added
+            removeNewTd();
+        }
+    }
+}
+
+// Initial check
+handleResize();
+
+// Event listener for window resize
+window.addEventListener("resize", handleResize);
+
+    </script>
 <!--footer-->
     <footer>
     <nav class="navigation-bar2">
