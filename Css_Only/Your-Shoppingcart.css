@@ -303,6 +303,13 @@ i
 
     }
 
+     #cart-container thead td:nth-child(3) ,#cart-container thead td:nth-child(4) , #cart-container thead td:nth-child(6) 
+    {
+
+        width: 74px;
+
+    }
+
 
     #cart-container tbody td:nth-child(3) h5, #cart-container tbody td:nth-child(6) h5
     {
