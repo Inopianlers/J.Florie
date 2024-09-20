@@ -21,6 +21,11 @@
 
    .Content_img
    {
-      padding:20px !important;
+      padding:unset !important;
+   }
+
+   .center H1
+   {
+      margin-top:20px;
    }
 
