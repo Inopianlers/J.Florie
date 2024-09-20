@@ -11,16 +11,16 @@
     }
 
    .no-break img {
-       width: 95%;
+       width: 95% !important;
         flex-wrap: nowrap !important; /* Prevent wrapping */
     }
 
    .row>* {
-    flex-shrink: unset;
+    flex-shrink: unset !important;
 }
 
    .Content_img
    {
-      padding:unset;
+      padding:unset !important;
    }
 
