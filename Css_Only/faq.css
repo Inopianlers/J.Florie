@@ -4,44 +4,13 @@
             background-position: center;
             width: 100%;
             height:500px;             */
-            display: flex;
+/*             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
-            font-family: 'Times New Roman', Times, serif;
+            font-family: 'Times New Roman', Times, serif; */
 /*         } */
 
-.banner {
-    position: relative;
-    height: 300px; /* Adjust height as needed */
-    overflow: hidden; /* Prevents overflow from the image */
-}
-
-.banner-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensures the image covers the banner area */
-    position: absolute; /* Positioning the image behind the text */
-    top: 0;
-    left: 0;
-}
-
-.flex-container {
-    position: relative; /* Keeps text on top of the image */
-    z-index: 1; /* Ensures text appears above the image */
-    text-align: center; /* Center the text */
-    color: white; /* Change text color for better visibility */
-}
-
-
-.text-box {
-    background-color:var( --main-color); /* Semi-transparent background */
-   
-    padding: 2rem;
-    width: 150px;
-    border-radius: 15px; /* Rounded corners */
-    text-align: center;
-}
 
 
 
