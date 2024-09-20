@@ -108,7 +108,7 @@ border: solid 1px darkgray;
 {
 .Special_Festival_type_product {
     display: grid;
-    grid-template-columns: repeat(2, minmax(266px, 0fr));
+    grid-template-columns: repeat(2, minmax(205px, 0fr));
     justify-content: center;
     gap: 3rem 0;
 }
