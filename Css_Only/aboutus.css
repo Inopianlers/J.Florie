@@ -4,7 +4,10 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.no-break {
-    display: flex !important; /* Force flex display */
-    flex-wrap: nowrap; /* Prevent wrapping */
+@media (max-width: 768px) {
+    .no-break {
+        display: flex !important; /* Force flex display on mobile */
+        flex-wrap: nowrap !important; /* Prevent wrapping */
+    }
 }
+
