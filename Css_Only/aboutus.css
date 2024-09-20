@@ -3,4 +3,8 @@
     margin: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
-       
+
+.no-break {
+    display: flex !important; /* Force flex display */
+    flex-wrap: nowrap; /* Prevent wrapping */
+}
