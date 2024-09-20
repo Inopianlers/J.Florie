@@ -100,3 +100,29 @@ border-radius: 0 0 1rem 1rem;
 {
 border: solid 1px darkgray;
 }
+
+@media (max-width: 768px)
+{
+.Special_Festival_type_product {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(205px, 0fr));
+    justify-content: center;
+    gap: 3rem 0;
+}
+
+    .Special_Festival_type_product p {
+    width: 150px; /* Set a fixed width */
+            white-space: nowrap; /* Prevent text from wrapping */
+            overflow: hidden; /* Hide overflow */
+            text-overflow: ellipsis; /* Show ellipsis */
+        
+}
+
+    .Special_Festival_type_product img {
+    width: 11rem;
+
+    }
+
+}
+
+    
