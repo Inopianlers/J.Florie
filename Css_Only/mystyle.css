@@ -556,7 +556,7 @@ body, .Inner_Contain_Title2 p ,  .Sixth_Contain p
 
     .ContentOfBrand p
     {
-       top: 3rem;
+       top: 2rem;
     }
 
     .ContentOfBrand h1
@@ -1362,7 +1362,7 @@ padding: 6rem 0px;
 
     .Hot_deal_Product_img
     {
-        gap: 36px;
+        gap: 16px;
         position: relative;
          top: 2rem;
     }
@@ -1426,7 +1426,7 @@ padding: 6rem 0px;
     .Second_Conten
     {
         left: -1rem !important;
-        top: 14rem !important;
+        top: 17rem !important;
         align-items: normal !important;
     }
 
@@ -1503,7 +1503,7 @@ width:7rem;
 }
 .Festival_Bouquet_product {
         display: grid;
-        grid-template-columns: repeat(4, minmax(176px, 0fr));
+        grid-template-columns: repeat(4, minmax(145px, 0fr));
         gap: 48px 0px;
         justify-content: center;
         position: relative;
@@ -1529,7 +1529,7 @@ border-radius: 22% 22% 0 0;
 
 .Special_Festival_type_product {
 display: grid;
-grid-template-columns: repeat(3, minmax(236px, 0fr));
+grid-template-columns: repeat(3, minmax(200px, 0fr));
 /* gap: 50px 10px; */
 justify-content: center;
 position: relative;
