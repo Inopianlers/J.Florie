@@ -77,6 +77,13 @@ img{
 
 @media (max-width: 768px) {
 
+    .Large_screen_purpose
+    {
+        display:none ! important;
+        
+    }
+
+    
 #testimonials{
     display: flex;
     justify-content: center;
