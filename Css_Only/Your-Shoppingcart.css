@@ -282,7 +282,7 @@ i
 
     .Item_size, h5 {
         font-size: 0.8em; /* Make text smaller on mobile */
-        text-align: center; /* Center-align text */
+/*         text-align: center;   */ 
     }
 
     /* Ensure other td elements are unaffected */
@@ -351,6 +351,25 @@ i
         display: none;
     }
 
+    .Align_Justify
+    {
+        justify-content: center !important;
+    }
+
+    #cart-bottom .coupon div>button {
+        margin: 0 0 20px 0;
+    }
+
+    .Confirm_btn
+    {
+    margin: 0px 110px;
+    }
+
+    .TotalPro_con
+
+    {
+        margin:0;
+    }
 }
 
 
