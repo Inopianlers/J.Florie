@@ -569,7 +569,7 @@ body, .Inner_Contain_Title2 p ,  .Sixth_Contain p
 
 /* -----------------------------------Responsive Open------------------------------------- */
 
-@media (min-width: 360px) and (max-width: 576px) 
+@media (min-width: 358.98px) and (max-width: 576px) 
 {
     .Hot_deal_Product_img img {
         width: 7rem;
