@@ -1,10 +1,12 @@
-ul{
+ul
+{
     list-style-type: none;
     justify-content: center;
     margin-bottom: 0px!important;
 }
 
-li{
+li
+{
     list-style-type: none;
 }
 
