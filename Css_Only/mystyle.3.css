@@ -114,7 +114,8 @@ ul
     justify-content: left;
 }
 
-.small-img-group{
+.small-img-group 
+{
     display: flex;
     justify-content: space-between;
 }
