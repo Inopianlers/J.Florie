@@ -49,11 +49,14 @@ a {
 {
     width: 80px;
 }
+#secondContainer ul
+{
+ display: flex;
+}
 
 ul
 {
     list-style-type: none;
-    display: flex;
     justify-content: center;
     margin-bottom: 0px!important;
 }
