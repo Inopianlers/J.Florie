@@ -374,6 +374,17 @@ i
 }
 
 /* edit by jm */
+.Personal_Info a
+{
+    color:unset;
+  decoration: none;
+}
+
+.padding_left_right_sixty
+{
+    padding: 0 60px !important;
+}
+
 .pad-size
 {
     padding-left: 2.7rem !important;
