@@ -264,7 +264,10 @@ i
     display: none;
 }
 
-
+.Align_Justify
+{
+justify-content: end !important;
+}
 
 @media (max-width: 768px) {
     .img_product {
