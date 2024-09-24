@@ -104,10 +104,9 @@ border-radius: 0 0 1rem 1rem;
 border: solid 1px darkgray;
 }
 
-.card_item_Special:hover{
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 16)
-    0 3px 6px rgba(0, 0, 0, 0, 23);
-    transform: translate(0px, -8px);
+.Special_Festival_type_product:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
 }
 
 @media (max-width: 768px)
