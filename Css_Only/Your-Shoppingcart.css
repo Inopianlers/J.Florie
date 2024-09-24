@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+
+ .cnf{
+    text-decoration: none;
+     color: black;}
+
 :root {
     --bs-font-sans-serif: 'Inter', sans-serif  !important;
     --main-color: #FFF1BA;
