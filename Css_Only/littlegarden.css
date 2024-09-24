@@ -15,7 +15,8 @@
     text-align: center;
 }
 
-#secondContainer {
+#secondContainer 
+{
     position: absolute; /* Use absolute positioning */
     width: 200px; /* Fixed width */
     left: -200px; /* Initially hide it completely off-screen */
