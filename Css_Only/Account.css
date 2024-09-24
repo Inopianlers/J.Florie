@@ -433,6 +433,10 @@ border: none !important;
 
 @media (max-width: 768px) {
 
+    .padding_left_right_sixty
+{
+    padding:unset;
+}
     .Recent_Order
     {
         padding-left: unset !important;
