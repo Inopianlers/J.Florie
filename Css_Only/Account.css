@@ -380,6 +380,12 @@ i
   decoration: none;
 }
 
+.Personal_Info a:hover
+{
+    color:black;
+
+}
+
 .padding_left_right_sixty
 {
     padding: 0 60px !important;
