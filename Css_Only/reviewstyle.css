@@ -154,7 +154,7 @@ img{
 .client-comment p{
     font-size: 0.9rem;
     color: #4b4b4b;
-    font-family: Josefin Sans;
+    font-family: Inter;
 }
 
 
@@ -162,6 +162,7 @@ img{
     font-size: 0.9rem;
     color: #4b4b4b;
     font-family: Jomolhari;
+    color:#D9D9D9;
 }
 
 .testimonial-box:hover{
