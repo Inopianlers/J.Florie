@@ -151,8 +151,25 @@ i
 
 }
 
-Personal_Info container-fluid{
+.Personal_Info container-fluid col-6 ps-3 {
     font-family: "Jomolhari", system-ui;
+}
+
+
+.Personal_Info container-fluid col-md-12 d-flex pad-size {
+   font-family: 'Inter', sans-serif;
+}
+
+#account-container .information-container  {
+    font-family: "Jomolhari", system-ui;
+}
+
+.account-container {
+    font-family: "Jomolhari", system-ui;
+}
+
+.row d-flex justify-content-end container-fluid {
+     font-family: "Jomolhari", system-ui;
 }
 
 .lg-size
