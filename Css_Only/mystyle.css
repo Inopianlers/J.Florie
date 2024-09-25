@@ -345,7 +345,12 @@ body, .Inner_Contain_Title2 p ,  .Sixth_Contain p
  
     gap: 70px;
    
-
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent line breaks in child elements */
+    padding: 10px;
+            gap: 30px ;
+    box-sizing: border-box;
+ 
     /* display: grid;
     grid-template-columns: repeat(4, minmax(200px, 0fr));
     position: relative;
@@ -355,6 +360,10 @@ body, .Inner_Contain_Title2 p ,  .Sixth_Contain p
     overflow-x: auto;
     white-space: nowrap; */
 }
+
+.Flower_type_product::-webkit-scrollbar {
+    display: none; /* Hide scrollbars in WebKit-based browsers (Chrome, Safari) */
+            }
 
 .Circle_Content
 {   

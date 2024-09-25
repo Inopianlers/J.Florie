@@ -99,7 +99,6 @@ a {
 .small_img_Parent .small-img-col
 {
     margin: 0;
-    border-radius:20px 20px 20px 20px;
     
 }
 
@@ -164,6 +163,11 @@ a {
     position: absolute; */
 }
 
+.font_size_pointfive
+{
+    font-size: 1.25rem;
+}
+
 .Product_label_Special
 {
     padding: 10px;
@@ -179,4 +183,74 @@ a {
     top: 0 !important;
     font-size: unset;
 }
+.Main_img
+{
+    border-radius: 25px;
+}
 
+.bordermini
+{
+    border-radius: 18px;
+}
+
+.justi_props
+{
+    justify-content: flex-start;
+   
+}
+
+@media (max-width: 768px)
+{
+    .Special_Festival_type_product {
+        grid-template-columns: repeat(2, minmax(200px, 0fr));
+}
+
+    .justi_props
+    {
+        justify-content: center !important;
+    }
+
+.Special_Festival_type_product img {
+    width: 9rem;
+}
+
+    .card_item_Festival
+    {
+        display: grid;
+    }
+
+    .Product_label_Special 
+    {
+        max-width: 9rem;
+        width: 9rem;
+    }
+
+    .card-body h5
+    {
+        font-size: 1.1rem;
+    }
+
+    .imgsize2 {
+        height: 45px;
+        width: 45px;
+    }
+
+    .fontsmall
+    {
+        font-size: 0.6rem;
+       
+        padding: 0 15px !important;
+    }
+
+    .rating 
+    {
+        font-size: 0.9rem !important;
+    }
+
+    .date h4
+    {
+        font-size: 13px;
+    }
+
+
+}
