@@ -151,16 +151,16 @@ i
 
 }
 
-.Personal_Info container-fluid {
+.Personal_Info container-fluid mt-5 {
     font-family: "Jomolhari", system-ui;
 }
 
 
-.Personal_Info container-fluid p {
+.Personal_Info container-fluid mt-5 p {
    font-family: 'Inter', sans-serif;
 }
 
-#account-container .information-container my-5 padding_left_right_sixty {
+#account-container .container-fluid {
     font-family: "Jomolhari", system-ui;
 }
 
