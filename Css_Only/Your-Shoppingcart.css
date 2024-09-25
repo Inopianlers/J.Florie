@@ -76,6 +76,32 @@ Footer li
     right: 2rem;
 
 }
+
+.container-fluid mt-5 {
+    font-family: "Jomolhari", system-ui;
+}
+
+
+.container-fluid mt-5 p {
+   font-family: 'Inter', sans-serif;
+}
+
+#cart-container .shopping-container my-2 {
+    font-family: "Jomolhari", system-ui;
+}
+
+.cart-container   {
+    font-family: "Jomolhari", system-ui;
+}
+
+.cart-container Item_size  {
+    font-family: 'Inter', sans-serif;
+}
+
+#cart-bottom .coupon-container d-flex Align_Justify margin_for_this {
+     font-family: "Jomolhari", system-ui;
+}
+
 #cart-container {
 /*     overflow-x: auto; */
     width: right;
