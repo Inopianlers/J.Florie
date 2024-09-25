@@ -58,6 +58,14 @@ body, .Inner_Contain_Title2 p ,  .Sixth_Contain p
     width: 100%; /* Ensure the section takes the full width */
   }
 
+  .First_Section_Element
+
+  {
+
+    margin-top: 4rem;
+
+  }
+
   .Inner_Contain_Title, .label, .btn1 , .title h2
   {
     position: relative;
@@ -259,7 +267,7 @@ body, .Inner_Contain_Title2 p ,  .Sixth_Contain p
 
 .center-product
 {
-    width: 45% !important;
+    width: 45% ;
     bottom:  17.5rem;
     z-index: 0 !important;
 }
@@ -569,70 +577,112 @@ body, .Inner_Contain_Title2 p ,  .Sixth_Contain p
 
 /* -----------------------------------Responsive Open------------------------------------- */
 
-@media (max-width: 365px) and (max-width: 576px) 
+@media (min-width: 360px) and (max-width: 574px) 
 {
     .Hot_deal_Product_img img {
-        width: 7rem;
+        width: 7rem !important;
 
     }
 
 
     .center-product {
-        width: 83% !important;
+        width: 80% ;
+    }
+
+    .Festival_Bouquet_product {
+        display: grid !important;
+        grid-template-columns: repeat(4, minmax(86px, 0fr)) !important;
+        gap: 48px 0px !important;
+        justify-content: center !important;
+        position: relative !important;
+        top: 4rem !important;
     }
 
 .Festival_Bouquet_product img {
-        width: 5rem;
+        width: 5rem !important;
 
 }
 
         .Special_Festival_type_product img {
-        width: 5.8rem;
+        width: 5.8rem !important;
+
+        }
+
+        .Special_Festival_type_product {
+            display: grid;  grid-template-columns: repeat(3, minmax(120px, 0fr)) !important;
 
         }
 
             .Center_big_Img {
-                position: relative;
-    right: 19px;
+                position: relative !important;
+    right: 19px !important;
+    width: 9.6rem !important
             }
+      
 
     
         .Center_big_Img img {
-        width: 7.6rem;
+        width: 7.6rem !important;
 
         }
 
         .Card_Content strong {
-        font-size: 10px;
+        font-size: 10px !important;
         }
 
-        .Product_label_Special {
-            width: 120px;
+        .Product_label_Special  {
+            width: 94px ;
+
+        }
+
+        .Center_big_Img .Product_label_Special  {
+            width: 120px ;
 
         }
 
         .Product_label_Special p {
-                width: 89px;
+                width: 89px !important;
         }
 
-    LogoHorizontal
+    .LogoHorizontal
     {
-        display:grid;
+        display:grid !important;
     }
 
  .LogoHorizontal img 
     {
-            width: 13rem;
-        height: 13rem;
+            width: 13rem !important;
+        height: 13rem !important;
     }
 
-    ContentOfBrand p
+    .ContentOfBrand p
     {
-            font-size: 14px;
-        text-align: center;
+            font-size: 12px !important;
+        text-align: center !important;
         
     }
 
+    .ContentOfBrand
+    {
+
+        position: relative;
+        top: 2rem;
+       
+    }
+
+    .ConTain_Of_Aboutus {
+
+        position: relative;
+    bottom: 7rem;
+    }
+
+}
+
+@media (min-width: 360px) and (max-width: 574px) and (min-height: 569px) and (max-height: 667px) 
+{
+    .center-product {
+        width: 80% !important;
+    }
 }
 
 @media (max-width: 575.98px) and (min-height: 569px) and (max-height: 667px) 
@@ -1118,7 +1168,7 @@ padding: 6rem 0px;
       /* Section Third */
     
     .center-product {
-        width: 69% !important;
+        width: 69% ;
     }
 
     .content-right 
@@ -1856,6 +1906,27 @@ padding: 0 10px;
           width: 14rem;
           text-align: end;
       }
+
+      .Flower_type_product
+      {
+          display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent line breaks in child elements */
+  padding: 10px;
+          gap: 30px ;
+  box-sizing: border-box;
+
+      }
+
+      .Flower_type_product img {
+            width: 10rem;
+            border-radius: 40% 40% 0 0;
+              }
+
+      .Flower_type_product::-webkit-scrollbar {
+display: none; /* Hide scrollbars in WebKit-based browsers (Chrome, Safari) */
+      }
+      
       
        /* Section Third */
   
