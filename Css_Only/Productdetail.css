@@ -15,6 +15,35 @@ body
   
 }
 
+.container sproduct{
+    font-family: "Jomolhari", system-ui;
+}
+
+.input-box{
+    font-family: "Jomolhari", system-ui;
+}
+
+.Description container-fluid{
+    font-family: "Jomolhari", system-ui;
+}
+
+.container2{
+    font-family: "Jomolhari", system-ui;
+}
+
+.flower-price
+{
+    font-size: inherit; /* Use inherit instead of unset */
+    font-family: 'Inter', sans-serif;
+    color: #666666;
+}
+
+.flower-name 
+{
+    font-size: inherit; /* Use inherit instead of unset */
+    font-family: "Jomolhari", system-ui;
+}
+
 a {
     text-decoration: none;
 }
