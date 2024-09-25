@@ -44,14 +44,6 @@ a {
     width: 80px;
 }
 
-Footer ul
-{
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0px!important;
-}
-
 .headlist li
 {
     padding: 0 1.7rem;
@@ -61,11 +53,6 @@ Footer ul
 {
    text-decoration: none;
    color: black;
-}
-
-Footer li
-{
-    list-style-type: none;display: inline;
 }
 
 
