@@ -19,11 +19,11 @@
     display: flex; /* Use flexbox to center the content */
     align-items: center; /* Center vertically */
     justify-content: center; /* Center horizontally */
-    font-family: "Jomolhari", system-ui;
 }
 
 .text-box {
     text-align: center; /* Center text within the text box */
+    font-family: "Jomolhari", system-ui;
   
 }
 
