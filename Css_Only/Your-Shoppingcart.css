@@ -78,28 +78,24 @@ Footer li
 
 }
 
-.container-fluid mt-5 {
+.container-fluid {
     font-family: "Jomolhari", system-ui;
 }
 
 
-.container-fluid mt-5 p {
+.container-fluid p {
    font-family: 'Inter', sans-serif;
 }
 
-#cart-container .shopping-container my-2 {
+#cart-container .shopping-container {
     font-family: "Jomolhari", system-ui;
 }
 
-.cart-container   {
-    font-family: "Jomolhari", system-ui;
-}
-
-.cart-container Item_size  {
+.cart-container .shopping-container Item_size  {
     font-family: 'Inter', sans-serif;
 }
 
-#cart-bottom .coupon-container d-flex Align_Justify margin_for_this {
+#cart-bottom .coupon-container {
      font-family: "Jomolhari", system-ui;
 }
 
