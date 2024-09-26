@@ -34,7 +34,8 @@
 
 .label, .Inner_Contain_Title2, .Inner_Contain_Title3,
 .FourthContain ,.Fifth_Contain,
-.Sixth_Contain, .Sixth_Contain p strong
+.Sixth_Contain, .Sixth_Contain p strong,
+.ContentOfBrand H1
 {
  font-family: var(--bs-font-sub-san);;
 }
