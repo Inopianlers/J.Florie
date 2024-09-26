@@ -236,6 +236,21 @@ header nav ul
     font-size: 18px;
 }
 
+.card_item_Special:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+
+.card_item_Festival:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+
+.card-body:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+
 .product img
 {
     width: 18rem;
