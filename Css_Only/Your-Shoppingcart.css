@@ -387,6 +387,7 @@ justify-content: end !important;
     .Confirm_btn
     {
     margin: 0px 110px;
+        width: 12rem !important;
     }
 
     .TotalPro_con
@@ -398,6 +399,7 @@ justify-content: end !important;
     .button_contain_main
     {
         display:grid;
+        justify-content:center;
     }
 }
 
