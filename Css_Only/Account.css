@@ -214,8 +214,14 @@ header nav ul
     right: 2rem;
 
 }
+
+.Personal_information
+{
+    display: flex;
+    justify-content: center;
+}
+
 #account-container {
-    overflow-x: auto;
     width: right;
     padding: 5px;
     right:15rem;
