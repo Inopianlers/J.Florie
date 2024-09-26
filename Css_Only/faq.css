@@ -10,6 +10,11 @@
             text-align: center;
             font-family: 'Times New Roman', Times, serif; */
 /*         } */
+body
+{
+ background-color: ghostwhite;
+}
+
 
 .banner {
     background-image: url('../assets/banner/bannerbackground.jpg'); /* Link to your background image */

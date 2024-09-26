@@ -1,4 +1,9 @@
 
+body
+{
+ background-color: ghostwhite;
+}
+
 *{
     margin: 0 auto;
     padding: 0;
