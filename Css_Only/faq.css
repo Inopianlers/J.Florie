@@ -160,5 +160,12 @@ margin-bottom: 5rem;
 {
 display: flex;
     justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.about-text
+{
+
+    text-align: center;
 }
 }

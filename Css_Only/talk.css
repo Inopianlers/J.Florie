@@ -32,6 +32,8 @@ button {
 
     .buttonstyle
     {
-        width:48%;
+        width:25rem !important;
     }
+
+    
 }
