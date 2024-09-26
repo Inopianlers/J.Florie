@@ -30,7 +30,7 @@ a {
     transition: all ease 0.3s;
 }
 
-.rv h-100 custom-bg-color :hover{
+.rv :hover{
     transform: translateY(-10px);
     transition: all ease 0.3s;
 }
