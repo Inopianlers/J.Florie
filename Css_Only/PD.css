@@ -273,7 +273,7 @@ _Second_mini
     right: unset;
 
 }
- _Third_mini
+ ._Third_mini
 {
     position: relative;
     right: 53px;
@@ -322,6 +322,8 @@ margin: 0;
     ._Third_mini
 { 
     justify-content: end;
+     position: unset;
+    right:0;
 }
 
 .Main_img
