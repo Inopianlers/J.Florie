@@ -246,8 +246,60 @@ a {
    
 }
 
+
+.width_Fiveplus
+{
+    width: 50%;
+}
+
+ 
+mini_contai_img _Second_mini
+mini_contai_img _Third_mini
+
+.Additional_container
+{
+
+}
+
 @media (max-width: 768px)
 {
+
+    .Main_Img_Product
+{
+    display:grid;
+}
+
+.mini_contai_img
+{
+    display: flex;
+}
+
+.bordermini
+{
+margin: 0;
+}
+
+.width_Fiveplus
+{
+    width: 100%;
+}
+
+._First_mini
+{ 
+    justify-content: end;
+}
+
+._Second_mini
+{ 
+    justify-content: center;
+}
+
+.Main_img
+{
+margin-bottom: 25px;
+}
+
+
     .Special_Festival_type_product {
         grid-template-columns: repeat(2, minmax(200px, 0fr));
 }
@@ -255,6 +307,7 @@ a {
     .justi_props
     {
         justify-content: center !important;
+        margin-bottom: 30px;
     }
 
 .Special_Festival_type_product img {
