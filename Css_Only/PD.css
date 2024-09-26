@@ -30,24 +30,32 @@ a {
     transition: all ease 0.3s;
 }
 
-.card-body:hover{
+.row container-fluid:hover{
     transform: translateY(-10px);
     transition: all ease 0.3s;
-}
-
-.container sproduct{
-    font-family: "Jomolhari", system-ui;
 }
 
 .input-box{
     font-family: "Jomolhari", system-ui;
 }
 
-.Description container-fluid{
+.col-md-6 {
+    font-family: "Jomolhari", system-ui;
+}
+
+.mt-4 {
+    font-family: "Jomolhari", system-ui;
+}
+
+.container1{
     font-family: "Jomolhari", system-ui;
 }
 
 .container2{
+    font-family: "Jomolhari", system-ui;
+}
+
+.container3{
     font-family: "Jomolhari", system-ui;
 }
 
