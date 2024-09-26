@@ -30,11 +30,6 @@ a {
     transition: all ease 0.3s;
 }
 
-.col-6 :hover{
-    transform: translateY(-10px);
-    transition: all ease 0.3s;
-}
-
 .input-box{
     font-family: "Jomolhari", system-ui;
 }
