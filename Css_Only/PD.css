@@ -20,6 +20,49 @@ a {
     text-decoration: none;
 }
 
+.card_item_Special:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+
+.card_item_Festival:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+
+.card-body:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+
+.container sproduct{
+    font-family: "Jomolhari", system-ui;
+}
+
+.input-box{
+    font-family: "Jomolhari", system-ui;
+}
+
+.Description container-fluid{
+    font-family: "Jomolhari", system-ui;
+}
+
+.container2{
+    font-family: "Jomolhari", system-ui;
+}
+
+.flower-price
+{
+    font-size: inherit; /* Use inherit instead of unset */
+    font-family: 'Inter', sans-serif;
+    color: #666666;
+}
+
+.flower-name 
+{
+    font-size: inherit; /* Use inherit instead of unset */
+    font-family: "Jomolhari", system-ui;
+}
 
 /*------------------product detail by Sheryl Ng--------------------*/
 .row{
@@ -69,50 +112,6 @@ a {
     height:35px ;
     margin: 0 3px;
     border: 1px solid;
-}
-
-.card_item_Special:hover{
-    transform: translateY(-10px);
-    transition: all ease 0.3s;
-}
-
-.card_item_Festival:hover{
-    transform: translateY(-10px);
-    transition: all ease 0.3s;
-}
-
-.card-body:hover{
-    transform: translateY(-10px);
-    transition: all ease 0.3s;
-}
-
-.container sproduct{
-    font-family: "Jomolhari", system-ui;
-}
-
-.input-box{
-    font-family: "Jomolhari", system-ui;
-}
-
-.Description container-fluid{
-    font-family: "Jomolhari", system-ui;
-}
-
-.container2{
-    font-family: "Jomolhari", system-ui;
-}
-
-.flower-price
-{
-    font-size: inherit; /* Use inherit instead of unset */
-    font-family: 'Inter', sans-serif;
-    color: #666666;
-}
-
-.flower-name 
-{
-    font-size: inherit; /* Use inherit instead of unset */
-    font-family: "Jomolhari", system-ui;
 }
 
 
