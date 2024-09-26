@@ -60,13 +60,16 @@ p {
 
 .about-text {
             
-            padding: 90px;
+/*             padding: 90px; */
             text-align: left;
          font-family: 'Times New Roman', Times, serif;
         
         }
 
-
+#accordion1 a,#accordion2 a,#accordion3 a
+{
+	font-size:18px;
+}
 
 
 /* Resets and fonts */
@@ -143,4 +146,19 @@ p {
 
 .dropdown-accordion.active .dropdown__title-accordion::before {
 	content: "-";
+}
+
+.container
+{
+margin-bottom: 5rem;
+}
+
+
+
+@media (max-width: 768px){
+.LgLower
+{
+display: flex;
+    justify-content: center;
+}
 }
