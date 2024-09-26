@@ -65,6 +65,30 @@ a {
 
 }
 
+.col-6  {
+    font-family: "Jomolhari", system-ui;
+}
+
+.col-5{
+    font-family: "Jomolhari", system-ui;
+}
+
+.m-0{
+    font-family: "Jomolhari", system-ui;
+}
+
+.shopping-container{
+    font-family: "Jomolhari", system-ui;
+}
+
+.Item_size{
+    font: 1em sans-serif;
+}
+
+.coupon-button{
+    font-family: "Jomolhari", system-ui;
+}
+
 .container-fluid {
     font-family: "Jomolhari", system-ui;
 }
