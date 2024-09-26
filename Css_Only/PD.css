@@ -30,7 +30,7 @@ a {
     transition: all ease 0.3s;
 }
 
-.row container-fluid:hover{
+.col-6 col-md-3 mb-4:hover{
     transform: translateY(-10px);
     transition: all ease 0.3s;
 }
