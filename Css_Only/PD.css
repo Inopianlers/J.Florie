@@ -273,10 +273,10 @@ _Second_mini
     right: unset;
 
 }
- ._Third_mini
-{
-    position: relative;
-    right: 53px;
+    ._Third_mini
+{ 
+     position: relative;
+    right:53px;
 }
 
 .Additional_container
@@ -317,6 +317,8 @@ margin: 0;
 ._Second_mini
 { 
     justify-content: center;
+    position: relative;
+    right: 0px;
 }
 
     ._Third_mini
