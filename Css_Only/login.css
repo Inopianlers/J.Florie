@@ -79,10 +79,13 @@ h2
 
 @media (max-width: 768px) {
 
+    .input-container {
+      right:5rem;
+}
+
+
 .input-container input {
        width: 92%;
-    position: relative;
-    right: 69px;
 }
 
     .input-container .forgot-password {
