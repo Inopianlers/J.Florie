@@ -5,6 +5,9 @@
 
 .logout{font-size: 20px;
         text-decoration: none;
+           margin: 0;
+        margin-bottom: 8rem;
+
       }
 
 h2{
@@ -25,6 +28,11 @@ button {
     font-size:15px;
     background-color: #FFE8A3 ;
    
+}
+
+.pad-size
+{
+    align-items: center;
 }
 
 @media(max-width:1060px) {
