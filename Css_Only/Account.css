@@ -151,9 +151,11 @@ i
 
 }
 
+#account-container .information-container  {
+    font-family: "Jomolhari", system-ui;
+}
 
-
-.container-fluid padding_left_right_sixty   {
+.container-fluid {
     font-family: "Jomolhari", system-ui;
 }
 
