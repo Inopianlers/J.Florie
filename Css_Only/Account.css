@@ -151,6 +151,10 @@ i
 
 }
 
+.m-0 {
+    font-family: "Jomolhari", system-ui;
+}
+
 #account-container .information-container  {
     font-family: "Jomolhari", system-ui;
 }
