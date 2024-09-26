@@ -68,6 +68,12 @@ a {
     color: #666666;
 }
 
+ ._Second_mini
+{
+    position: relative;
+    right: 30px;
+}
+
 .flower-name 
 {
     font-size: inherit; /* Use inherit instead of unset */
@@ -260,8 +266,18 @@ a {
 }
 
  
-mini_contai_img _Second_mini
-mini_contai_img _Third_mini
+_Second_mini
+{
+  
+    position: unset;
+    right: unset;
+
+}
+ _Third_mini
+{
+    position: relative;
+    right: 53px;
+}
 
 .Additional_container
 {
@@ -294,6 +310,8 @@ margin: 0;
 ._First_mini
 { 
     justify-content: end;
+        position: unset;
+    right: unset;
 }
 
 ._Second_mini
