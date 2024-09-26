@@ -54,6 +54,10 @@ background-color: #e9ecef; /* Light gray background on hover */
 cursor: pointer; /* Change cursor to pointer on hover */
 }
 
+.Product_label_Special
+{
+    max-width: 224px;
+}
 
 
 .Special_Festival_type_product img
@@ -115,6 +119,8 @@ border: solid 1px darkgray;
     transform: translateY(-10px);
     transition: all ease 0.3s;
 }
+
+
 
 @media (max-width: 768px)
 {

@@ -87,6 +87,11 @@ text-align: center;
 border-radius: 0 0 1rem 1rem;
 }
 
+.Product_label_Special
+{
+    max-width: 224px;
+}
+
 .flower-price
 {
     font-size: inherit; /* Use inherit instead of unset */

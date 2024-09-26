@@ -114,6 +114,11 @@ border: solid 1px darkgray;
     transition: all ease 0.3s;
 }
 
+.Product_label_Special
+{
+    max-width: 224px;
+}
+
 @media (max-width: 768px)
 {
 .Special_Festival_type_product {
