@@ -299,6 +299,11 @@ margin: 0;
     justify-content: center;
 }
 
+    ._Third_mini
+{ 
+    justify-content: end;
+}
+
 .Main_img
 {
 margin-bottom: 25px;
@@ -315,6 +320,11 @@ margin-bottom: 25px;
         margin-bottom: 30px;
     }
 
+      .justi_props img
+    {
+       width: 80%;
+    }
+    
 .Special_Festival_type_product img {
     width: 9rem;
 }
