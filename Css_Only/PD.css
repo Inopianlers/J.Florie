@@ -30,7 +30,7 @@ a {
     transition: all ease 0.3s;
 }
 
-.col-6 col-md-3 mb-4:hover{
+.rv h-100 custom-bg-color :hover{
     transform: translateY(-10px);
     transition: all ease 0.3s;
 }
