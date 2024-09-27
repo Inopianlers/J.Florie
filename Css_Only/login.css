@@ -1,3 +1,15 @@
+.confirm {
+    -webkit-transition:0.3s;
+    transition-duration: 0.3s;
+    transition-property:box-shadow,transform;
+}
+
+.confirm:hover, .confirm:focus, .confirm:active{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
 
 body
 {
