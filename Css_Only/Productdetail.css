@@ -1,7 +1,4 @@
-.btn_add_cart:hover{
-    transform: translateY(-10px);
-    transition: all ease 0.3s;
-}
+
 
 *{
     margin: 0 auto;
