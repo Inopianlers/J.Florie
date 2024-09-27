@@ -1,3 +1,14 @@
+.submit{
+    -webkit-transition:0.3s;
+    transition-duration: 0.3s;
+    transition-property:box-shadow,transform;
+}
+
+.submit:hover, .submit:focus, .submit:active{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 body
 {
  background-color: ghostwhite !important;
