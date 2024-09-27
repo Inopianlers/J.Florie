@@ -4,7 +4,7 @@
     transition-property:box-shadow,transform;
 }
 
-.button:hover, .btn:focus, .btn:active{
+.button:hover, .button:focus, .button:active{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
