@@ -1,0 +1,39 @@
+.btn1:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+
+.Product_1 Hot_deal_item :hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+
+.Product_2 Hot_deal_item :hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+
+.Product_3 Hot_deal_item :hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+
+.center-product  :hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+
+.Circle_Content  :hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+
+.card_item_Festival  :hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+
+.card_item_Special  :hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
