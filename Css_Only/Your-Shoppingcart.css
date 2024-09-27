@@ -1,3 +1,17 @@
+.Confirm_btn{
+    -webkit-transition:0.3s;
+    transition-duration: 0.3s;
+    transition-property:box-shadow,transform;
+}
+
+.Confirm_btn:hover, .Confirm_btn:focus, .Confirm_btn:active{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+
 /*Cart*/
 *{
     margin: 0 auto;
