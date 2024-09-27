@@ -496,7 +496,7 @@
 <script src="jsOnly/Header.js"></script>
     <script>
     // Select all mini images and add a click event listener
-    document.querySelectorAll('._first_mini img, ._second_mini img, ._third_mini img, .fourth_mini_img').forEach(miniImg => {
+    document.querySelectorAll('._first_mini img, ._second_mini img, ._third_mini img, ._fourth_mini img').forEach(miniImg => {
         miniImg.addEventListener('click', function() {
             const mainImg = document.querySelector('.Main_img');
             mainImg.src = this.src; // Update main image src with the clicked mini image src
