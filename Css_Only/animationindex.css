@@ -1,11 +1,18 @@
-.btn_add_cart:hover{
-    transform: translateY(-10px);
-    transition: all ease 0.3s;
+.btn1{
+    cursor:pointer;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+   -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property:box-shadow, transform;
+    transitionn-property:box-shadow, transform;
+
 }
 
-.btn1:hover{
-    transform: translateY(-10px);
-    transition: all ease 0.3s;
+.btn1:hover .btn1:focus btn1:active{
+   box-shadow:0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform:scale(1.1);
+    transform: scale(1.1);
+
 }
 
 .Product_1:hover{
