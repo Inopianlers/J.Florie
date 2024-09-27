@@ -1,3 +1,14 @@
+.CA {
+    -webkit-transition:0.3s;
+    transition-duration: 0.3s;
+    transition-property:box-shadow,transform;
+}
+
+.CA:hover, .CA:focus, .CA:active{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 *{
     margin: 0 auto;
     padding: 0;
