@@ -3,22 +3,27 @@
     transition: all ease 0.3s;
 }
 
-.Product_1 Hot_deal_item :hover{
+.Product_1 :hover{
     transform: translateY(-10px);
     transition: all ease 0.3s;
 }
 
-.Product_2 Hot_deal_item :hover{
+.Product_2 :hover{
     transform: translateY(-10px);
     transition: all ease 0.3s;
 }
 
-.Product_3 Hot_deal_item :hover{
+.Product_3:hover{
     transform: translateY(-10px);
     transition: all ease 0.3s;
 }
 
-.center-product  :hover{
+.teddybear  :hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+
+.Flower_Card :hover{
     transform: translateY(-10px);
     transition: all ease 0.3s;
 }
