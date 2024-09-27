@@ -11,10 +11,21 @@ button {
     height: 45px;
     font-size:15px;
     background-color: #FFE8A3 ;
-    border: none;
-    
+    border: none;   
         
 }
+
+.buttonstyle{
+    -webkit-transition:0.3s;
+    transition-duration: 0.3s;
+    transition-property:box-shadow,transform;
+}
+
+.buttonstyle:hover, .buttonstyle:focus, .buttonstyle:active{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
             
         .container {
     padding: 100px;
