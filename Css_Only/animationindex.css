@@ -3,12 +3,12 @@
     transition: all ease 0.3s;
 }
 
-.Product_1 :hover{
+.Product_1:hover{
     transform: translateY(-10px);
     transition: all ease 0.3s;
 }
 
-.Product_2 :hover{
+.Product_2:hover{
     transform: translateY(-10px);
     transition: all ease 0.3s;
 }
@@ -18,27 +18,22 @@
     transition: all ease 0.3s;
 }
 
-.teddybear  :hover{
+.teddybear:hover{
     transform: translateY(-10px);
     transition: all ease 0.3s;
 }
 
-.Flower_Card :hover{
+.Flower_Card:hover{
     transform: translateY(-10px);
     transition: all ease 0.3s;
 }
 
-.Circle_Content  :hover{
+.card_item_Festival:hover{
     transform: translateY(-10px);
     transition: all ease 0.3s;
 }
 
-.card_item_Festival  :hover{
-    transform: translateY(-10px);
-    transition: all ease 0.3s;
-}
-
-.card_item_Special  :hover{
+.card_item_Special:hover{
     transform: translateY(-10px);
     transition: all ease 0.3s;
 }
