@@ -146,6 +146,12 @@ body, .Inner_Contain_Title2 p ,  .Sixth_Contain p
     bottom: 4rem;
   }
 
+。btn1{
+  -webkit-transition:0.3s;
+    transition-duration: 0.3s;
+    transition-property:box-shadow,transform;
+}
+
   .label h3
   {
     font-size: 1.6rem;
