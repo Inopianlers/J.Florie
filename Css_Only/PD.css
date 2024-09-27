@@ -146,8 +146,16 @@ a {
 {
     width: 27rem !important;
     height: 3rem !important;
+    -webkit-transition:0.3s;
+    transition-duration: 0.3s;
+    transition-property:box-shadow,transform;
 }
 
+
+.btn_add_cart:hover, .btn_add_cart:focus, .btn_add_cart:active{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
 
 
 .text_space
